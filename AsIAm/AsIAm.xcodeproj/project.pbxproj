@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA408233D7EDE0043DF7B /* NameViewController.swift */; };
+		5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA40A233D91500043DF7B /* HomeViewController.swift */; };
 		A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081D2334433A00FDD480 /* AppDelegate.swift */; };
 		A13408202334433A00FDD480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081F2334433A00FDD480 /* ViewController.swift */; };
 		A13408232334433A00FDD480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13408212334433A00FDD480 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BABA408233D7EDE0043DF7B /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		5BABA40A233D91500043DF7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A134081A2334433A00FDD480 /* AsIAm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsIAm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A134081D2334433A00FDD480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A134081F2334433A00FDD480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		A134081C2334433A00FDD480 /* AsIAm */ = {
 			isa = PBXGroup;
 			children = (
+				5BABA40A233D91500043DF7B /* HomeViewController.swift */,
 				A134081D2334433A00FDD480 /* AppDelegate.swift */,
 				A134081F2334433A00FDD480 /* ViewController.swift */,
 				A13408212334433A00FDD480 /* Main.storyboard */,
@@ -109,6 +114,7 @@
 				A13408292334433C00FDD480 /* Info.plist */,
 				A134084B23344A9600FDD480 /* TopMenuViewController.swift */,
 				A134084D2334581600FDD480 /* IntimacyViewController.swift */,
+				5BABA408233D7EDE0043DF7B /* NameViewController.swift */,
 			);
 			path = AsIAm;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 				A13408202334433A00FDD480 /* ViewController.swift in Sources */,
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
 				A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */,
+				5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */,
+				5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
