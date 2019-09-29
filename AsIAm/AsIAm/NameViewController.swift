@@ -35,10 +35,11 @@ class NameViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
             
             // change field color
-            nameField.textColor = UIColor.red
+            nameField.attributedPlaceholder = NSAttributedString(string:"Enter your name", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
             
         } else {
-           // create user in local storage
+           // TODO: Add name to PLIST
+            
             self.performSegue(withIdentifier: "continueSegue", sender: self)
         }
     }
