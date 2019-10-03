@@ -37,7 +37,8 @@ class UsersModel: NSObject {
                     let userDict:[String:NSObject] = dict as! [String : NSObject]
                     let name = userDict["name"] as! String
                     let progress = userDict["progress"] as! Dictionary<String,Dictionary<String,Dictionary<String,Bool>>>
-                    model.append(UserProfile(name: name,progress: progress));
+                    let avatar = userDict["avatar"] as! String
+                    model.append(UserProfile(name: name,progress: progress,avatar: avatar));
                 }
             }
         }
@@ -54,7 +55,8 @@ class UsersModel: NSObject {
         var usersArray = [[String:Any]]()
             for user in model{
                 let data = ["name": user.name,
-                            "progress": user.progress] as [String : Any]
+                            "progress": user.progress,
+                            "avatar": user.avatar] as [String : Any]
                 usersArray.append(data)
             }
             (usersArray as NSArray).write(toFile: documents!, atomically: true)

@@ -12,6 +12,7 @@ class UserProfile{
     
     var name: String
     var progress: Dictionary<String,Dictionary<String,Dictionary<String,Bool>>>
+    var avatar: String
     
     init(name: String){
         self.name = name
@@ -171,11 +172,12 @@ class UserProfile{
                              "play2":false]
                     ]
                 ]
-        
+        avatar = "One"
     }
     
-    init (name:String, progress:[String : [String : [String : Bool]]]){
+    init (name:String, progress:[String : [String : [String : Bool]]], avatar:String){
         self.name = name;
         self.progress = progress;
+        self.avatar = avatar;
     }
 }
