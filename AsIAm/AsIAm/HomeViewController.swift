@@ -8,8 +8,14 @@
 
 import UIKit
 
+struct myVariables
+   {
+       static var userName = "";
+   }
 class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-
+    
+   
+    
     @IBOutlet weak var pickerSelection: UIPickerView!
     
     
@@ -69,6 +75,8 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         var selectedName = model[pickerSelection.selectedRow(inComponent: 0)] //gets name selected to put in plist
         
        print(selectedName)
+        myVariables.userName = selectedName
+        print(myVariables.userName)
         
         self.performSegue(withIdentifier: "nameSelectedSegue", sender: self)
         

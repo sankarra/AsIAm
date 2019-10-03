@@ -70,7 +70,7 @@ class UsersModel: NSObject {
     //Returns the song at a given index
     func user(at index: Int) -> UserProfile{
         if (index >= model.count){
-            return UserProfile(name: "Guest")
+            return UserProfile(name: "Guest", avatar: "")
         }
         return model[index]
     }

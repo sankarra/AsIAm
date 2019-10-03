@@ -26,6 +26,8 @@ class NameViewController: UIViewController {
         
         let name: String? = nameField.text ?? nil
         
+        myVariables.userName = name!
+        
         if (name == nil || name! == ""){
             // warning
             let alert = UIAlertController(title: "Name Error", message: "Please tell us your name!", preferredStyle: .alert)
@@ -38,7 +40,7 @@ class NameViewController: UIViewController {
             nameField.attributedPlaceholder = NSAttributedString(string:"Enter your name", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
             
         } else {
-            UsersModel.shared.insert(user: UserProfile(name: name!))
+            //UsersModel.shared.insert(user: UserProfile(name: name!))
             
             self.performSegue(withIdentifier: "continueSegue", sender: self)
         }

@@ -20,6 +20,7 @@
 		A134083E2334433C00FDD480 /* AsIAmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134083D2334433C00FDD480 /* AsIAmUITests.swift */; };
 		A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084B23344A9600FDD480 /* TopMenuViewController.swift */; };
 		A134084E2334581600FDD480 /* IntimacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084D2334581600FDD480 /* IntimacyViewController.swift */; };
+		A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A134083F2334433C00FDD480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A134084B23344A9600FDD480 /* TopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuViewController.swift; sourceTree = "<group>"; };
 		A134084D2334581600FDD480 /* IntimacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntimacyViewController.swift; sourceTree = "<group>"; };
+		A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				A134084B23344A9600FDD480 /* TopMenuViewController.swift */,
 				A134084D2334581600FDD480 /* IntimacyViewController.swift */,
 				5BABA408233D7EDE0043DF7B /* NameViewController.swift */,
+				A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */,
 			);
 			path = AsIAm;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				A13408202334433A00FDD480 /* ViewController.swift in Sources */,
 				3FC373F323467B840034F4B9 /* UserProfile.swift in Sources */,
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
+				A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */,
 				A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */,
 				5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */,
 				3FC373F523467E170034F4B9 /* UsersModel.swift in Sources */,
