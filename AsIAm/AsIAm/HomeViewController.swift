@@ -12,16 +12,36 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
 
     @IBOutlet weak var pickerSelection: UIPickerView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        for user in users{
+            model.append(user.name)
+        }
+        if model.count == 0{
+            // create main storyboard instance
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            // from main storyboard, instantiate success view
+            let successVC = storyboard.instantiateViewController(withIdentifier: "NameViewController")
+            
+            // get the app delegate
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            
+            // set the success view controller as root view controller
+            appDelegate.window?.rootViewController = successVC
+        }
         self.pickerSelection.delegate = self
         self.pickerSelection.dataSource = self
+        
+        
         
         // Do any additional setup after loading the view.
     }
     
-    let model = ["John","Bob","Carl"] // TODO: GET NAMES FROM PLIST
+    let users = UsersModel.shared.model // TODO: GET NAMES FROM PLIST
+    var model: [String] = [];
+    
     weak var button: UIButton?
     var handler: (() -> ())?
 

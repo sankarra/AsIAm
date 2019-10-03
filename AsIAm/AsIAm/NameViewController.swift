@@ -24,7 +24,7 @@ class NameViewController: UIViewController {
 
     @IBAction func ContinueButton(_ sender: Any) {
         
-        var name: String? = nameField.text ?? nil
+        let name: String? = nameField.text ?? nil
         
         if (name == nil || name! == ""){
             // warning
@@ -38,7 +38,7 @@ class NameViewController: UIViewController {
             nameField.attributedPlaceholder = NSAttributedString(string:"Enter your name", attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
             
         } else {
-           // TODO: Add name to PLIST
+            UsersModel.shared.insert(user: UserProfile(name: name!))
             
             self.performSegue(withIdentifier: "continueSegue", sender: self)
         }
