@@ -60,6 +60,7 @@ class UsersModel: NSObject {
                 usersArray.append(data)
             }
             (usersArray as NSArray).write(toFile: documents!, atomically: true)
+        print("plist location: ", documents)
     }
     
     //removes a song
