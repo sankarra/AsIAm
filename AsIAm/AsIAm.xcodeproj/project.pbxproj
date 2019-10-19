@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F917D15235A7D9F00A77203 /* ModuleInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F917D14235A7D9F00A77203 /* ModuleInfo.plist */; };
+		3F917D17235A83F700A77203 /* SubtopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F917D16235A83F700A77203 /* SubtopicViewController.swift */; };
+		3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F917D18235A863C00A77203 /* ModuleNavModel.swift */; };
 		3FC373F323467B840034F4B9 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC373F223467B840034F4B9 /* UserProfile.swift */; };
 		3FC373F523467E170034F4B9 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC373F423467E170034F4B9 /* UsersModel.swift */; };
 		5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA408233D7EDE0043DF7B /* NameViewController.swift */; };
@@ -19,7 +22,7 @@
 		A13408332334433C00FDD480 /* AsIAmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13408322334433C00FDD480 /* AsIAmTests.swift */; };
 		A134083E2334433C00FDD480 /* AsIAmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134083D2334433C00FDD480 /* AsIAmUITests.swift */; };
 		A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084B23344A9600FDD480 /* TopMenuViewController.swift */; };
-		A134084E2334581600FDD480 /* IntimacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084D2334581600FDD480 /* IntimacyViewController.swift */; };
+		A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084D2334581600FDD480 /* ModuleViewController.swift */; };
 		A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F917D14235A7D9F00A77203 /* ModuleInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModuleInfo.plist; sourceTree = "<group>"; };
+		3F917D16235A83F700A77203 /* SubtopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtopicViewController.swift; sourceTree = "<group>"; };
+		3F917D18235A863C00A77203 /* ModuleNavModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleNavModel.swift; sourceTree = "<group>"; };
 		3FC373F223467B840034F4B9 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		3FC373F423467E170034F4B9 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 		5BABA408233D7EDE0043DF7B /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +65,7 @@
 		A134083D2334433C00FDD480 /* AsIAmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsIAmUITests.swift; sourceTree = "<group>"; };
 		A134083F2334433C00FDD480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A134084B23344A9600FDD480 /* TopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuViewController.swift; sourceTree = "<group>"; };
-		A134084D2334581600FDD480 /* IntimacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntimacyViewController.swift; sourceTree = "<group>"; };
+		A134084D2334581600FDD480 /* ModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleViewController.swift; sourceTree = "<group>"; };
 		A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,15 +119,18 @@
 			children = (
 				3FC373F223467B840034F4B9 /* UserProfile.swift */,
 				3FC373F423467E170034F4B9 /* UsersModel.swift */,
+				3F917D18235A863C00A77203 /* ModuleNavModel.swift */,
 				5BABA40A233D91500043DF7B /* HomeViewController.swift */,
 				A134081D2334433A00FDD480 /* AppDelegate.swift */,
 				A134081F2334433A00FDD480 /* ViewController.swift */,
 				A13408212334433A00FDD480 /* Main.storyboard */,
+				3F917D16235A83F700A77203 /* SubtopicViewController.swift */,
 				A13408242334433C00FDD480 /* Assets.xcassets */,
 				A13408262334433C00FDD480 /* LaunchScreen.storyboard */,
 				A13408292334433C00FDD480 /* Info.plist */,
+				3F917D14235A7D9F00A77203 /* ModuleInfo.plist */,
 				A134084B23344A9600FDD480 /* TopMenuViewController.swift */,
-				A134084D2334581600FDD480 /* IntimacyViewController.swift */,
+				A134084D2334581600FDD480 /* ModuleViewController.swift */,
 				5BABA408233D7EDE0043DF7B /* NameViewController.swift */,
 				A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */,
 			);
@@ -250,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F917D15235A7D9F00A77203 /* ModuleInfo.plist in Resources */,
 				A13408282334433C00FDD480 /* LaunchScreen.storyboard in Resources */,
 				A13408252334433C00FDD480 /* Assets.xcassets in Resources */,
 				A13408232334433A00FDD480 /* Main.storyboard in Resources */,
@@ -277,10 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A134084E2334581600FDD480 /* IntimacyViewController.swift in Sources */,
+				A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */,
 				A13408202334433A00FDD480 /* ViewController.swift in Sources */,
 				3FC373F323467B840034F4B9 /* UserProfile.swift in Sources */,
+				3F917D17235A83F700A77203 /* SubtopicViewController.swift in Sources */,
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
+				3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */,
 				A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */,
 				A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */,
 				5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */,
@@ -461,14 +473,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78THMZZFV8;
 				INFOPLIST_FILE = AsIAm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MightyKnucklers.AsIAm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -478,14 +492,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78THMZZFV8;
 				INFOPLIST_FILE = AsIAm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MightyKnucklers.AsIAm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

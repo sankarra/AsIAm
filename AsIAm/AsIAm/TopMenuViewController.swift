@@ -32,19 +32,34 @@ class TopMenuViewController: UIViewController {
     }
     
     //All outlets
-    @IBOutlet weak var intamacyCircle: UIImageView!
-    @IBOutlet weak var sexualIdentityCircle: UIImageView!
-    @IBOutlet weak var powerCircle: UIImageView!
-    @IBOutlet weak var sensualityCircle: UIImageView!
-    @IBOutlet weak var sexualHealthCircle: UIImageView!
-    /*
+    @IBOutlet weak var intamacyCircle: UIButton!
+    @IBOutlet weak var sexualIdentityCircle: UIButton!
+    @IBOutlet weak var powerCircle: UIButton!
+    @IBOutlet weak var sensualityCircle: UIButton!
+    @IBOutlet weak var sexualHealthCircle: UIButton!
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if (segue.identifier == "healthSegue"){
+            ModuleNavModel.shared.selectedModule = 0
+        }
+        if (segue.identifier == "powerSegue"){
+            ModuleNavModel.shared.selectedModule = 1
+        }
+        if (segue.identifier == "identSegue"){
+            ModuleNavModel.shared.selectedModule = 2
+        }
+        if (segue.identifier == "sensuSegue"){
+            ModuleNavModel.shared.selectedModule = 3
+        }
+        if (segue.identifier == "intimSegue"){
+            ModuleNavModel.shared.selectedModule = 4
+        }
     }
-    */
 
 }
