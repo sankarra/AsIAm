@@ -14,6 +14,7 @@
 		3FC373F523467E170034F4B9 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC373F423467E170034F4B9 /* UsersModel.swift */; };
 		5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA408233D7EDE0043DF7B /* NameViewController.swift */; };
 		5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA40A233D91500043DF7B /* HomeViewController.swift */; };
+		685CBDFA235D202100BD973F /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */; };
 		A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081D2334433A00FDD480 /* AppDelegate.swift */; };
 		A13408202334433A00FDD480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081F2334433A00FDD480 /* ViewController.swift */; };
 		A13408232334433A00FDD480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13408212334433A00FDD480 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		3FC373F423467E170034F4B9 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 		5BABA408233D7EDE0043DF7B /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		5BABA40A233D91500043DF7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.otf"; path = "../../../../../../Downloads/playfair-display/PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
 		A134081A2334433A00FDD480 /* AsIAm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsIAm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A134081D2334433A00FDD480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A134081F2334433A00FDD480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		685CBDF8235D1FDB00BD973F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		A13408112334433A00FDD480 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 		A134081C2334433A00FDD480 /* AsIAm */ = {
 			isa = PBXGroup;
 			children = (
+				685CBDF8235D1FDB00BD973F /* fonts */,
 				3FC373F223467B840034F4B9 /* UserProfile.swift */,
 				3FC373F423467E170034F4B9 /* UsersModel.swift */,
 				3F917D18235A863C00A77203 /* ModuleNavModel.swift */,
@@ -263,6 +274,7 @@
 				A13408282334433C00FDD480 /* LaunchScreen.storyboard in Resources */,
 				A13408252334433C00FDD480 /* Assets.xcassets in Resources */,
 				A13408232334433A00FDD480 /* Main.storyboard in Resources */,
+				685CBDFA235D202100BD973F /* PlayfairDisplay-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
