@@ -8,6 +8,8 @@
 		<key>Subtopics</key>
 		<array>
 			<dict>
+				<key>GameType</key>
+				<string>Identify</string>
 				<key>SubtopicName</key>
 				<string>Anatomy &amp; Physiology</string>
 				<key>VideoURL</key>
@@ -47,6 +49,8 @@
 				</array>
 			</dict>
 			<dict>
+				<key>GameType</key>
+				<string>Matching</string>
 				<key>SubtopicName</key>
 				<string>Sexual/Reproductive Systems</string>
 				<key>VideoURL</key>
@@ -86,6 +90,8 @@
 				</array>
 			</dict>
 			<dict>
+				<key>GameType</key>
+				<string>Identify</string>
 				<key>SubtopicName</key>
 				<string>Sexually Transmitted Infections</string>
 				<key>VideoURL</key>
