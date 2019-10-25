@@ -28,7 +28,7 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>sperm</string>
+						<string>testicles</string>
 						<key>pictureURL</key>
 						<string>sperm.png</string>
 						<key>description</key>
@@ -38,7 +38,137 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>penis</string>
+						<string>vas deferens</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>glans</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>foreskin</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>prostate</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>bladder</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>urethra</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>vagina</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>uterus</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>ovaries</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>fallopian tubes</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>clitoris</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>bladder opening</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>cervix</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>labia minora</string>
 						<key>pictureURL</key>
 						<string>penis.jpeg</string>
 						<key>description</key>
@@ -59,7 +189,7 @@
 				<array>
 					<dict>
 						<key>word</key>
-						<string>penis</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
 						<string>penis.jpeg</string>
 						<key>description</key>
@@ -69,7 +199,7 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>sperm</string>
+						<string>egg</string>
 						<key>pictureURL</key>
 						<string>sperm.png</string>
 						<key>description</key>
@@ -79,7 +209,57 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>penis</string>
+						<string>zygote</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>conception</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>implantation</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>embryo</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>fetus</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>baby</string>
 						<key>pictureURL</key>
 						<string>penis.jpeg</string>
 						<key>description</key>
@@ -100,7 +280,7 @@
 				<array>
 					<dict>
 						<key>word</key>
-						<string>penis</string>
+						<string>syphilis</string>
 						<key>pictureURL</key>
 						<string>penis.jpeg</string>
 						<key>description</key>
@@ -110,7 +290,7 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>sperm</string>
+						<string>gonorrhea</string>
 						<key>pictureURL</key>
 						<string>sperm.png</string>
 						<key>description</key>
@@ -120,7 +300,37 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>penis</string>
+						<string>HIV</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>herpes</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>vaginal infection</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>zygote</string>
 						<key>pictureURL</key>
 						<string>penis.jpeg</string>
 						<key>description</key>
