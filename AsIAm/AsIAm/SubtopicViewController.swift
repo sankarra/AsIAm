@@ -9,12 +9,36 @@
 import UIKit
 
 class SubtopicViewController: UIViewController {
+    
+    var dict: [[String: Any]] = []
 
     @IBOutlet weak var subtopicLabel: UILabel!
     
+    @IBAction func playButton(_ sender: Any) {
+        let gameType = dict[ModuleNavModel.shared.selectedSubtopic]["GameType"] as! String
+        switch gameType{
+        case "Identify":
+            self.performSegue(withIdentifier: "identifySegue", sender: self)
+            break;
+        case "Matching":
+            self.performSegue(withIdentifier: "matchingSegue", sender: self)
+            break;
+        case "Memory":
+            self.performSegue(withIdentifier: "memorySegue", sender: self)
+            break;
+        case "MultipleChoice":
+            self.performSegue(withIdentifier: "multipleChoiceSegue", sender: self)
+            break;
+        case "SetUp":
+            self.performSegue(withIdentifier: "setUpSegue", sender: self)
+            break;
+        default:
+            break;
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
+        dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
         let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
         subtopicLabel.text = subtopic
     }
