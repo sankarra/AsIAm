@@ -808,6 +808,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="UoL-Yh-qcy"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image1Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="3S1-dp-VXf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match the images!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXd-dD-DbK">
                                 <rect key="frame" x="72" y="80" width="270" height="0.0"/>
@@ -821,6 +824,9 @@
                                     <constraint firstAttribute="width" secondItem="9Th-De-aKW" secondAttribute="height" multiplier="1:1" id="to3-l1-KCC"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image2Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="lNS-bw-pdY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-bx-hRu">
                                 <rect key="frame" x="72" y="255" width="77.5" height="77.5"/>
@@ -828,6 +834,9 @@
                                     <constraint firstAttribute="width" secondItem="rTp-bx-hRu" secondAttribute="height" multiplier="1:1" id="yUe-sd-78F"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image3Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="xXO-hs-zkv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cc-Ib-8EZ">
                                 <rect key="frame" x="255.5" y="255" width="77.5" height="77.5"/>
@@ -835,10 +844,16 @@
                                     <constraint firstAttribute="width" secondItem="7cc-Ib-8EZ" secondAttribute="height" multiplier="1:1" id="sKS-X3-emT"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image4Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="RCr-AF-WQI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzn-dO-4hM">
                                 <rect key="frame" x="72" y="382.5" width="77.5" height="77"/>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image5Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="wIP-M5-0Ln"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zq-ku-xdA">
                                 <rect key="frame" x="255.5" y="382.5" width="77.5" height="77"/>
@@ -846,6 +861,9 @@
                                     <constraint firstAttribute="width" secondItem="6zq-ku-xdA" secondAttribute="height" id="6Ys-tI-OWi"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image6Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="9Px-5p-rAf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejJ-Se-Pbj">
                                 <rect key="frame" x="72" y="637" width="77.5" height="77.5"/>
@@ -853,6 +871,9 @@
                                     <constraint firstAttribute="width" secondItem="ejJ-Se-Pbj" secondAttribute="height" multiplier="1:1" id="JYj-Hd-9Mn"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image9Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="jGZ-E8-4fw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSf-eL-bLh">
                                 <rect key="frame" x="260.5" y="637" width="77.5" height="77.5"/>
@@ -860,6 +881,9 @@
                                     <constraint firstAttribute="width" secondItem="CSf-eL-bLh" secondAttribute="height" multiplier="1:1" id="u2y-E6-b9f"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image10Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="Ega-nB-xfw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9Y-nQ-wuQ">
                                 <rect key="frame" x="260.5" y="509.5" width="77.5" height="77.5"/>
@@ -867,6 +891,9 @@
                                     <constraint firstAttribute="width" secondItem="f9Y-nQ-wuQ" secondAttribute="height" multiplier="1:1" id="G7v-OI-Eac"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image8Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="ekc-hA-BnS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wh8-j5-5eT">
                                 <rect key="frame" x="72" y="509.5" width="77.5" height="77.5"/>
@@ -874,7 +901,17 @@
                                     <constraint firstAttribute="width" secondItem="wh8-j5-5eT" secondAttribute="height" multiplier="1:1" id="lFj-oD-7Qy"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Asset 1"/>
+                                <connections>
+                                    <action selector="image7Action:" destination="D4t-OC-Gj6" eventType="touchUpInside" id="Gd6-oc-1Jf"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUCCESS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uc-0x-qKn">
+                                <rect key="frame" x="20" y="367" width="374" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="60"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -943,6 +980,7 @@
                         <outlet property="image7Outlet" destination="wh8-j5-5eT" id="ymg-5I-l2y"/>
                         <outlet property="image8Outlet" destination="f9Y-nQ-wuQ" id="B71-kt-pdO"/>
                         <outlet property="image9Outlet" destination="ejJ-Se-Pbj" id="iim-qh-hh0"/>
+                        <outlet property="successLabel" destination="7uc-0x-qKn" id="6LZ-a4-HoB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5HE-PV-tHA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
