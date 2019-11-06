@@ -15,7 +15,7 @@ class SubtopicViewController: UIViewController {
     @IBOutlet weak var subtopicLabel: UILabel!
     
     @IBAction func playButton(_ sender: Any) {
-        let gameType = dict[ModuleNavModel.shared.selectedSubtopic]["GameType"] as! String
+        let gameType = dict[ModuleNavModel.shared.selectedSubtopic]["GameType"] as? String
         switch gameType{
         case "Identify":
             self.performSegue(withIdentifier: "identifySegue", sender: self)

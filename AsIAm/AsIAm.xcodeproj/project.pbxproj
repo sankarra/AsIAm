@@ -26,6 +26,7 @@
 		A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084B23344A9600FDD480 /* TopMenuViewController.swift */; };
 		A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084D2334581600FDD480 /* ModuleViewController.swift */; };
 		A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */; };
+		A1CCDA9C23724AE2007CB021 /* StreamVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		A134084B23344A9600FDD480 /* TopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuViewController.swift; sourceTree = "<group>"; };
 		A134084D2334581600FDD480 /* ModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleViewController.swift; sourceTree = "<group>"; };
 		A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickViewController.swift; sourceTree = "<group>"; };
+		A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamVideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				5BABA408233D7EDE0043DF7B /* NameViewController.swift */,
 				A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */,
 				A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */,
+				A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */,
 			);
 			path = AsIAm;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */,
 				A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */,
 				A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */,
+				A1CCDA9C23724AE2007CB021 /* StreamVideoViewController.swift in Sources */,
 				5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */,
 				3FC373F523467E170034F4B9 /* UsersModel.swift in Sources */,
 				5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */,
