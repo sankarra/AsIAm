@@ -32,6 +32,9 @@ class SubtopicViewController: UIViewController {
         case "SetUp":
             self.performSegue(withIdentifier: "setUpSegue", sender: self)
             break;
+        case "Unicorn":
+            self.performSegue(withIdentifier: "unicornSegue", sender: self)
+            break;
         default:
             break;
         }

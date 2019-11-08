@@ -825,6 +825,8 @@
 				</array>
 			</dict>
 			<dict>
+				<key>GameType</key>
+				<string>Unicorn</string>
 				<key>SubtopicName</key>
 				<string>Gender Identity</string>
 				<key>VideoURL</key>

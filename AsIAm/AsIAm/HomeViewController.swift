@@ -73,7 +73,7 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     @IBAction func continueButton(_ sender: Any) {
         var selectedName = model[pickerSelection.selectedRow(inComponent: 0)] //gets name selected to put in plist
-        
+        UsersModel.shared.selectedIndex = pickerSelection.selectedRow(inComponent: 0)
        print(selectedName)
         myVariables.userName = selectedName
         print(myVariables.userName)

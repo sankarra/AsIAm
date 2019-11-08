@@ -41,7 +41,7 @@ class NameViewController: UIViewController {
             
         } else {
             //UsersModel.shared.insert(user: UserProfile(name: name!))
-            
+            UsersModel.shared.selectedIndex = UsersModel.shared.model.count
             self.performSegue(withIdentifier: "continueSegue", sender: self)
         }
     }

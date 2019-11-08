@@ -22,6 +22,7 @@ class UsersModel: NSObject {
         manager = FileManager.default
         let url = manager.urls(for: .documentDirectory, in: .userDomainMask).first
         documents = url!.appendingPathComponent("Users.plist").path
+        print("plist location: ", documents)
         self.model = []
         selectedIndex = -1
         super.init()
@@ -38,7 +39,8 @@ class UsersModel: NSObject {
                     let name = userDict["name"] as! String
                     let progress = userDict["progress"] as! Dictionary<String,Dictionary<String,Dictionary<String,Bool>>>
                     let avatar = userDict["avatar"] as! String
-                    model.append(UserProfile(name: name,progress: progress,avatar: avatar));
+                    let gender = userDict["gender"] as! Dictionary<String,Double>
+                    model.append(UserProfile(name: name,progress: progress,avatar: avatar, gender: gender));
                 }
             }
         }
@@ -56,11 +58,24 @@ class UsersModel: NSObject {
             for user in model{
                 let data = ["name": user.name,
                             "progress": user.progress,
-                            "avatar": user.avatar] as [String : Any]
+                            "avatar": user.avatar,
+                            "gender": user.gender] as [String : Any]
                 usersArray.append(data)
             }
             (usersArray as NSArray).write(toFile: documents!, atomically: true)
-        print("plist location: ", documents)
+        
+    }
+    
+    func save(){
+        var usersArray = [[String:Any]]()
+        for user in model{
+            let data = ["name": user.name,
+                        "progress": user.progress,
+                        "avatar": user.avatar,
+                        "gender": user.gender] as [String : Any]
+            usersArray.append(data)
+        }
+        (usersArray as NSArray).write(toFile: documents!, atomically: true)
     }
     
     //removes a song
