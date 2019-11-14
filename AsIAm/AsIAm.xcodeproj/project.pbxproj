@@ -14,6 +14,8 @@
 		3FC373F523467E170034F4B9 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC373F423467E170034F4B9 /* UsersModel.swift */; };
 		5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA408233D7EDE0043DF7B /* NameViewController.swift */; };
 		5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA40A233D91500043DF7B /* HomeViewController.swift */; };
+		684FD0ED237E08E20000142E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EC237E08E20000142E /* QuizViewController.swift */; };
+		684FD0EF237E0FD80000142E /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EE237E0FD80000142E /* SlideShowViewController.swift */; };
 		685CBDFA235D202100BD973F /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */; };
 		A131CB38236394CA00C1CC1B /* MemoryMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */; };
 		A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081D2334433A00FDD480 /* AppDelegate.swift */; };
@@ -54,6 +56,8 @@
 		3FC373F423467E170034F4B9 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
 		5BABA408233D7EDE0043DF7B /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		5BABA40A233D91500043DF7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		684FD0EC237E08E20000142E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		684FD0EE237E0FD80000142E /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
 		685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.otf"; path = "../../../../../../Downloads/playfair-display/PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
 		A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMatchViewController.swift; sourceTree = "<group>"; };
 		A134081A2334433A00FDD480 /* AsIAm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsIAm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +154,8 @@
 				A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */,
 				A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */,
 				A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */,
+				684FD0EC237E08E20000142E /* QuizViewController.swift */,
+				684FD0EE237E0FD80000142E /* SlideShowViewController.swift */,
 			);
 			path = AsIAm;
 			sourceTree = "<group>";
@@ -306,9 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */,
+				684FD0ED237E08E20000142E /* QuizViewController.swift in Sources */,
 				A13408202334433A00FDD480 /* ViewController.swift in Sources */,
 				3FC373F323467B840034F4B9 /* UserProfile.swift in Sources */,
 				A131CB38236394CA00C1CC1B /* MemoryMatchViewController.swift in Sources */,
+				684FD0EF237E0FD80000142E /* SlideShowViewController.swift in Sources */,
 				3F917D17235A83F700A77203 /* SubtopicViewController.swift in Sources */,
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
 				3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */,
