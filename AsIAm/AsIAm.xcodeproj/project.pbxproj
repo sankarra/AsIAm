@@ -12,6 +12,7 @@
 		3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F917D18235A863C00A77203 /* ModuleNavModel.swift */; };
 		3FC373F323467B840034F4B9 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC373F223467B840034F4B9 /* UserProfile.swift */; };
 		3FC373F523467E170034F4B9 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC373F423467E170034F4B9 /* UsersModel.swift */; };
+		5B0474EE237E1C6100483229 /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0474ED237E1C6100483229 /* ShadowViewController.swift */; };
 		5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA408233D7EDE0043DF7B /* NameViewController.swift */; };
 		5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA40A233D91500043DF7B /* HomeViewController.swift */; };
 		684FD0ED237E08E20000142E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EC237E08E20000142E /* QuizViewController.swift */; };
@@ -54,6 +55,7 @@
 		3F917D18235A863C00A77203 /* ModuleNavModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleNavModel.swift; sourceTree = "<group>"; };
 		3FC373F223467B840034F4B9 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		3FC373F423467E170034F4B9 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		5B0474ED237E1C6100483229 /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
 		5BABA408233D7EDE0043DF7B /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		5BABA40A233D91500043DF7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		684FD0EC237E08E20000142E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				A134081D2334433A00FDD480 /* AppDelegate.swift */,
 				A134081F2334433A00FDD480 /* ViewController.swift */,
 				A13408212334433A00FDD480 /* Main.storyboard */,
+				5B0474ED237E1C6100483229 /* ShadowViewController.swift */,
 				3F917D16235A83F700A77203 /* SubtopicViewController.swift */,
 				A13408242334433C00FDD480 /* Assets.xcassets */,
 				A13408262334433C00FDD480 /* LaunchScreen.storyboard */,
@@ -321,6 +324,7 @@
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
 				3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */,
 				A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */,
+				5B0474EE237E1C6100483229 /* ShadowViewController.swift in Sources */,
 				A134084C23344A9600FDD480 /* TopMenuViewController.swift in Sources */,
 				A1CCDA9C23724AE2007CB021 /* StreamVideoViewController.swift in Sources */,
 				5BABA409233D7EDE0043DF7B /* NameViewController.swift in Sources */,
