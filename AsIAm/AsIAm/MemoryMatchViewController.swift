@@ -28,6 +28,8 @@ class MemoryMatchViewController: UIViewController {
     var cardsOpen = 0
     var arrayOfOpenCards: [Int] = []
     var totalSuccessfulCards = 0
+    var timer = Timer()
+    var timer1sec = 1
     
     
     
@@ -41,6 +43,8 @@ class MemoryMatchViewController: UIViewController {
         
         arrayOfPictureNames.shuffle()
         
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
+        
         var i = 1
         while (i <= arrayOfOutlets.count)
         {
@@ -51,6 +55,28 @@ class MemoryMatchViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    
+    @objc func fireTimer() {
+        print("Timer fired!")
+        var a = 0
+        if (timer1sec == 1)
+        {
+            while (a < arrayOfOutlets.count)
+            {
+                arrayOfOutlets[a].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+                a += 1
+            }
+            timer1sec = 0
+        }
+        else
+        {
+            for element in arrayOfOutlets
+            {
+                element.setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+            }
+        }
+    }
+    
     func checkCards(i: Int)
     {
         arrayOfOpenCards.append(i)

@@ -43,6 +43,7 @@ class SubtopicViewController: UIViewController {
         super.viewDidLoad()
         dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
         let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
+        let words = dict[ModuleNavModel.shared.selectedSubtopic]["QuizItems"]
         subtopicLabel.text = subtopic
     }
     

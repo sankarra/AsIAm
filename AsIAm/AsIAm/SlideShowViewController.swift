@@ -17,6 +17,10 @@ class SlideShowViewController: UIViewController {
     @IBOutlet weak var subImage2: UIImageView!
     @IBOutlet weak var subImage3: UIImageView!
     
+    var words: [[Any]] = [];
+    
+    var dict: [[String: Any]] = []
+    
     @IBAction func imageTapped1(sender: UITapGestureRecognizer){
         mainImage.image = subImage1.image
         mainLabel.text = "Sensuality"
@@ -47,6 +51,22 @@ class SlideShowViewController: UIViewController {
         
         let pictureTap3 = UITapGestureRecognizer(target: self, action: #selector(SlideShowViewController.imageTapped3))
         subImage3.addGestureRecognizer(pictureTap3)
+        
+        
+        
+        dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
+        let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
+        let words = dict[ModuleNavModel.shared.selectedSubtopic]["QuizItems"] as! [[String: String]]
+        for word in words{
+            //code to procedurally generate imageviews
+            let name = word["word"]
+            let picture = UIImage(named: (word["pictureURL"] ?? nil)!)
+            let desc = word["description"]
+            let shadow = UIImage(named: (word["shadowURL"] ?? nil)!)
+            
+            self.words.append([name!,picture,desc,shadow])
+            
+        }
         // Do any additional setup after loading the view.
         //mainImage.image = subImage1.image
     }

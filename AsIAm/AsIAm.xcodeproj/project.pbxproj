@@ -18,6 +18,7 @@
 		684FD0ED237E08E20000142E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EC237E08E20000142E /* QuizViewController.swift */; };
 		684FD0EF237E0FD80000142E /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EE237E0FD80000142E /* SlideShowViewController.swift */; };
 		685CBDFA235D202100BD973F /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */; };
+		68AF8E01237F2EB70093B653 /* SlideshowStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF8E00237F2EB70093B653 /* SlideshowStackViewController.swift */; };
 		A131CB38236394CA00C1CC1B /* MemoryMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */; };
 		A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081D2334433A00FDD480 /* AppDelegate.swift */; };
 		A13408202334433A00FDD480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081F2334433A00FDD480 /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 		684FD0EC237E08E20000142E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		684FD0EE237E0FD80000142E /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
 		685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.otf"; path = "../../../../../../Downloads/playfair-display/PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
+		68AF8E00237F2EB70093B653 /* SlideshowStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowStackViewController.swift; sourceTree = "<group>"; };
 		A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMatchViewController.swift; sourceTree = "<group>"; };
 		A134081A2334433A00FDD480 /* AsIAm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsIAm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A134081D2334433A00FDD480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */,
 				684FD0EC237E08E20000142E /* QuizViewController.swift */,
 				684FD0EE237E0FD80000142E /* SlideShowViewController.swift */,
+				68AF8E00237F2EB70093B653 /* SlideshowStackViewController.swift */,
 			);
 			path = AsIAm;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				684FD0EF237E0FD80000142E /* SlideShowViewController.swift in Sources */,
 				3F917D17235A83F700A77203 /* SubtopicViewController.swift in Sources */,
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
+				68AF8E01237F2EB70093B653 /* SlideshowStackViewController.swift in Sources */,
 				3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */,
 				A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */,
 				5B0474EE237E1C6100483229 /* ShadowViewController.swift in Sources */,
