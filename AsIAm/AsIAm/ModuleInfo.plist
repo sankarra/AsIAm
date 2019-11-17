@@ -746,7 +746,7 @@
 				<string>Identify</string>
 				<key>VideoURL</key>
 				<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
-				<key>AvatarPose>
+				<key>AvatarPose</key>
 				<string>study</string>
 				<key>QuizItems</key>
 				<array>
