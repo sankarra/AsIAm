@@ -5,8 +5,6 @@
 	<dict>
 		<key>ModuleName</key>
 		<string>Sexual Health &amp; Reproduction</string>
-		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
 		<key>Subtopics</key>
 		<array>
 			<dict>
@@ -22,121 +20,161 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>penisshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>testicles</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
-						<string>testicleshadow</string>
+						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>vas deferens</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The tube through which semen travels.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>vas deferensshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>glans</string>
 						<key>pictureURL</key>
-						<string>glans</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>glansshadow</string>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>foreskin</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>prostate</string>
 						<key>pictureURL</key>
-						<string>prostate</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>A gland which protects sperm.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>prostateshadow</string>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>bladder</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>urethra</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>vagina</string>
 						<key>pictureURL</key>
-						<string>vagina</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The female reproductive organ.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>vaginashadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>uterus</string>
 						<key>pictureURL</key>
-						<string>uterus</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The womb where babies develop.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>uterusshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>ovaries</string>
 						<key>pictureURL</key>
-						<string>ovaries</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>ovariesshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>fallopian tubes</string>
 						<key>pictureURL</key>
-						<string>fallopiantubes</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>fallopiantubesshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>clitoris</string>
 						<key>pictureURL</key>
-						<string>clitoris</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>clitorisshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>bladder opening</string>
 						<key>pictureURL</key>
-						<string>bladder opening</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The tube which urine travels through.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>bladder openingshadow</string>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>cervix</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>labia minora</string>
 						<key>pictureURL</key>
-						<string>labia</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>labiashadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 				</array>
 			</dict>
@@ -153,51 +191,81 @@
 						<key>word</key>
 						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>sperm</string>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>egg</string>
+						<key>pictureURL</key>
+						<string>sperm.png</string>
 						<key>description</key>
 						<string>The male sex cell.</string>
 						<key>shadowURL</key>
-						<string>spermshadow</string>
+						<string>sperm.png</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>zygote</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>conception</string>
 						<key>pictureURL</key>
-						<string>fertilization</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The process through which male and female sex cells produce a zygote.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>fertilizationshadow</string>
+						<string>penis.jpeg</string>
+					</dict>
+					<dict>
+						<key>word</key>
+						<string>implantation</string>
+						<key>pictureURL</key>
+						<string>penis.jpeg</string>
+						<key>description</key>
+						<string>The male reproductive organ.</string>
+						<key>shadowURL</key>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>embryo</string>
 						<key>pictureURL</key>
-						<string>embryo</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>An early stage of development.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>embryoshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
 						<string>fetus</string>
 						<key>pictureURL</key>
-						<string>fetus</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>A late stage of development.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>fetusshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>birth</string>
+						<string>baby</string>
 						<key>pictureURL</key>
-						<string>birth</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The process through which a fetus leaves its mother and becomes a baby.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
-						<string>birthshadow</string>
+						<string>penis.jpeg</string>
 					</dict>
 				</array>
 			</dict>
@@ -212,9 +280,9 @@
 				<array>
 					<dict>
 						<key>word</key>
-						<string>penis</string>
+						<string>syphilis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -222,111 +290,51 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>gonorrhea</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>HIV</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The tube through which semen travels.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>glans</string>
+						<string>herpes</string>
 						<key>pictureURL</key>
-						<string>glans</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>prostate</string>
+						<string>vaginal infection</string>
 						<key>pictureURL</key>
-						<string>prostate</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
-						<string>A gland which protects sperm.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vagina</string>
+						<string>zygote</string>
 						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
 						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -345,7 +353,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -353,111 +361,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -474,7 +392,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -482,111 +400,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -603,7 +431,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -611,111 +439,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -732,7 +470,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -740,111 +478,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -855,8 +503,6 @@
 	<dict>
 		<key>ModuleName</key>
 		<string>Power &amp; Sexualization</string>
-		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
 		<key>Subtopics</key>
 		<array>
 			<dict>
@@ -870,7 +516,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -878,111 +524,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -999,7 +555,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1007,111 +563,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1128,7 +594,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1136,111 +602,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1257,7 +633,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1265,111 +641,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1386,7 +672,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1394,111 +680,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1515,7 +711,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1523,111 +719,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1644,7 +750,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1652,111 +758,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1767,8 +783,6 @@
 	<dict>
 		<key>ModuleName</key>
 		<string>Sexual Identity</string>
-		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
 		<key>Subtopics</key>
 		<array>
 			<dict>
@@ -1782,7 +796,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1790,111 +804,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -1913,7 +837,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -1921,111 +845,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2042,7 +876,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2050,111 +884,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2171,7 +915,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2179,111 +923,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2300,7 +954,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2308,111 +962,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2429,7 +993,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2437,111 +1001,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2558,7 +1032,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2566,111 +1040,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2681,8 +1065,6 @@
 	<dict>
 		<key>ModuleName</key>
 		<string>Sensuality</string>
-		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
 		<key>Subtopics</key>
 		<array>
 			<dict>
@@ -2696,7 +1078,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2704,111 +1086,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2825,7 +1117,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2833,111 +1125,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -2954,7 +1156,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -2962,111 +1164,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3083,7 +1195,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3091,111 +1203,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3212,7 +1234,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3220,111 +1242,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3341,7 +1273,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3349,111 +1281,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3470,7 +1312,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3478,111 +1320,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3593,8 +1345,6 @@
 	<dict>
 		<key>ModuleName</key>
 		<string>Intimacy</string>
-		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
 		<key>Subtopics</key>
 		<array>
 			<dict>
@@ -3608,7 +1358,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3616,111 +1366,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3737,7 +1397,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3745,111 +1405,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3866,7 +1436,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -3874,111 +1444,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -3995,7 +1475,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -4003,111 +1483,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -4124,7 +1514,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -4132,111 +1522,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -4253,7 +1553,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -4261,111 +1561,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
@@ -4382,7 +1592,7 @@
 						<key>word</key>
 						<string>penis</string>
 						<key>pictureURL</key>
-						<string>penis</string>
+						<string>penis.jpeg</string>
 						<key>description</key>
 						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
@@ -4390,111 +1600,21 @@
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>testicles</string>
+						<string>sperm</string>
 						<key>pictureURL</key>
-						<string>testicle</string>
+						<string>sperm.png</string>
 						<key>description</key>
-						<string>The organs which produce sperm.</string>
+						<string>The male sex cell.</string>
 						<key>shadowURL</key>
 						<string>sperm.png</string>
 					</dict>
 					<dict>
 						<key>word</key>
-						<string>vas deferens</string>
+						<string>penis</string>
 						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
 						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
 						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>penis.jpeg</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
+						<string>The male reproductive organ.</string>
 						<key>shadowURL</key>
 						<string>penis.jpeg</string>
 					</dict>
