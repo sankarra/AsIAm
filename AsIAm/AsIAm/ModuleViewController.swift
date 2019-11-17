@@ -32,22 +32,31 @@ class ModuleViewController: UIViewController {
             button.setTitle(dict[index]["SubtopicName"] as? String, for: .normal)
         }
         moduleNameLabel.text = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["ModuleName"] as? String
-        moduleDescLabel.text = "placeholder text"
+        moduleDescLabel.text = "The exchange of emotional closeness between people"
         
         let moduleNum = ModuleNavModel.shared.selectedModule
         switch moduleNum{
+        // sexual health and reproduction
         case 0:
+            view.backgroundColor = UIColor(red: 246.0/255.0, green: 220.0/255.0, blue: 220.0/255.0, alpha: 100)
             moduleCloud.image = UIImage(named: "sex_repro_cloud")
             break
+        // power and sexualization
         case 1:
+            view.backgroundColor = UIColor(red: 246.0/255.0, green: 244.0/255.0, blue: 220.0/255.0, alpha: 100)
             moduleCloud.image = UIImage(named: "power_sex_cloud")
             break
+        //sexual identity
         case 2:
+            view.backgroundColor = UIColor(red: 246.0/255.0, green: 220.0/255.0, blue: 246.0/255.0, alpha: 100)
             moduleCloud.image = UIImage(named: "sex_identity_cloud")
             break
+        // sensuality
         case 3:
+            view.backgroundColor = UIColor(red: 220.0/255.0, green: 240.0/255.0, blue: 246.0/255.0, alpha: 100)
             moduleCloud.image = UIImage(named: "sensulaity_cloud")
             break
+        // intimacy
         default:
             moduleCloud.image = UIImage(named: "intimacy_cloud")
             break

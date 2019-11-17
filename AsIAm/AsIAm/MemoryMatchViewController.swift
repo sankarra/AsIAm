@@ -30,21 +30,39 @@ class MemoryMatchViewController: UIViewController {
     var totalSuccessfulCards = 0
     var timer = Timer()
     var timer1sec = 1
-    
-    
+    var words: [[Any]] = [];
+    var dict: [[String: Any]] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //image1Outlet.setImage(UIImage(named: "Asset 2"), for: UIControl.State.normal)
         successLabel.isHidden = true
-        
+
         arrayOfOutlets = [image1Outlet, image2Outlet, image3Outlet, image4Outlet, image5Outlet, image6Outlet, image7Outlet, image8Outlet, image9Outlet, image10Outlet]
         arrayOfPictureNames = ["Asset 1", "Asset 1", "Asset 2", "Asset 2", "Asset 3", "Asset 3", "Asset 4", "Asset 4", "temp_av1", "temp_av1"]
-        
-        arrayOfPictureNames.shuffle()
-        
+
         timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
+
+        //Modularizing memory cards
         
+        dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
+//        let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
+        let words = dict[ModuleNavModel.shared.selectedSubtopic]["QuizItems"] as! [[String: String]]
+        print(words.count)
+
+        var counter = 0;
+        for word in words{
+            //code to procedurally generate imageviews
+            let picture = word["pictureURL"]
+            arrayOfPictureNames[counter] = picture!
+            arrayOfPictureNames[counter+1] = picture!
+            counter += 2
+            if (counter == 10)
+            {
+                break
+            }
+        }
+        arrayOfPictureNames.shuffle()
+
         var i = 1
         while (i <= arrayOfOutlets.count)
         {
@@ -52,8 +70,6 @@ class MemoryMatchViewController: UIViewController {
 
             i = i+1
         }
-        
-        // Do any additional setup after loading the view.
     }
     
     @objc func fireTimer() {
