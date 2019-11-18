@@ -13,7 +13,6 @@ struct myVariables
        static var userName = "";
    }
 class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-    
    
     
     @IBOutlet weak var pickerSelection: UIPickerView!
@@ -21,6 +20,8 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        continueButtonOutlet.layer.cornerRadius = 15
+        mynameisnthereButtonOutlet.layer.cornerRadius = 15
         for user in users{
             model.append(user.name)
         }
@@ -39,6 +40,7 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         }
         self.pickerSelection.delegate = self
         self.pickerSelection.dataSource = self
+        
         
         
         
@@ -70,6 +72,10 @@ class HomeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         return self.model[row]
     }
 
+    @IBOutlet weak var continueButtonOutlet: UIButton!
+    
+    @IBOutlet weak var mynameisnthereButtonOutlet: UIButton!
+    
     
     @IBAction func continueButton(_ sender: Any) {
         var selectedName = model[pickerSelection.selectedRow(inComponent: 0)] //gets name selected to put in plist

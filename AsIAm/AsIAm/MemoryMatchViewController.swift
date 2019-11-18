@@ -29,26 +29,31 @@ class MemoryMatchViewController: UIViewController {
     var arrayOfOpenCards: [Int] = []
     var totalSuccessfulCards = 0
     var timer = Timer()
+    var timer2 = Timer()
+    var timer3 = Timer()
     var timer1sec = 1
+    
+    
     var words: [[Any]] = [];
     var dict: [[String: Any]] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         successLabel.isHidden = true
-
+        
         arrayOfOutlets = [image1Outlet, image2Outlet, image3Outlet, image4Outlet, image5Outlet, image6Outlet, image7Outlet, image8Outlet, image9Outlet, image10Outlet]
         arrayOfPictureNames = ["Asset 1", "Asset 1", "Asset 2", "Asset 2", "Asset 3", "Asset 3", "Asset 4", "Asset 4", "temp_av1", "temp_av1"]
+                
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: false)
 
-        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
-
-        //Modularizing memory cards
         
+        
+        //Modularizing memory cards
         dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
-//        let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
+        //let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
         let words = dict[ModuleNavModel.shared.selectedSubtopic]["QuizItems"] as! [[String: String]]
         print(words.count)
-
+        
         var counter = 0;
         for word in words{
             //code to procedurally generate imageviews
@@ -62,35 +67,50 @@ class MemoryMatchViewController: UIViewController {
             }
         }
         arrayOfPictureNames.shuffle()
-
+        
         var i = 1
         while (i <= arrayOfOutlets.count)
         {
             arrayOfOutlets[i-1].setImage(UIImage(named: arrayOfPictureNames[i-1]), for: UIControl.State.normal)
-
+        
             i = i+1
         }
+        
+        // Do any additional setup after loading the view.
     }
-    
+    @objc func flipTimer() {
+        print("Array of open cards count: ", arrayOfOpenCards.count)
+        arrayOfOutlets[arrayOfOpenCards[0]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+        arrayOfOutlets[arrayOfOpenCards[1]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+        arrayOfOpenCards.remove(at: 1)
+        arrayOfOpenCards.remove(at: 0)
+        cardsOpen = 0
+            
+    }
     @objc func fireTimer() {
         print("Timer fired!")
         var a = 0
-        if (timer1sec == 1)
+        
+        while (a < arrayOfOutlets.count)
         {
-            while (a < arrayOfOutlets.count)
-            {
-                arrayOfOutlets[a].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
-                a += 1
-            }
-            timer1sec = 0
+            arrayOfOutlets[a].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+            a += 1
         }
-        else
-        {
-            for element in arrayOfOutlets
-            {
-                element.setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
-            }
-        }
+    }
+    @objc func correctFlipTimer() {
+        arrayOfOutlets[arrayOfOpenCards[0]-1].isHidden = true
+                        arrayOfOutlets[arrayOfOpenCards[1]-1].isHidden = true
+        //                arrayOfOutlets[arrayOfOpenCards[0]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+        //                arrayOfOutlets[arrayOfOpenCards[1]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
+                        totalSuccessfulCards += 2
+                        if (totalSuccessfulCards == 10)
+                        {
+                            //User has successfully matched all cards
+                            successLabel.isHidden = false
+                        }
+                        arrayOfOpenCards.remove(at: 1)
+                                   arrayOfOpenCards.remove(at: 0)
+                         cardsOpen = 0
     }
     
     func checkCards(i: Int)
@@ -101,22 +121,19 @@ class MemoryMatchViewController: UIViewController {
         {
             if (arrayOfPictureNames[arrayOfOpenCards[0]-1] == arrayOfPictureNames[arrayOfOpenCards[1]-1])
             {
-                arrayOfOutlets[arrayOfOpenCards[0]-1].isHidden = true
-                arrayOfOutlets[arrayOfOpenCards[1]-1].isHidden = true
-//                arrayOfOutlets[arrayOfOpenCards[0]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
-//                arrayOfOutlets[arrayOfOpenCards[1]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
-                totalSuccessfulCards += 2
-                if (totalSuccessfulCards == 10)
-                {
-                    //User has successfully matched all cards
-                    successLabel.isHidden = false
-                }
+                timer3 = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(correctFlipTimer), userInfo: nil, repeats: false)
+
                 
                 
             }
-            cardsOpen = 0
-            arrayOfOpenCards.remove(at: 1)
-            arrayOfOpenCards.remove(at: 0)
+            else
+            {
+                timer2 = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(flipTimer), userInfo: nil, repeats: false)
+                
+               
+            }
+            
+           
         }
         else
         {
@@ -124,7 +141,7 @@ class MemoryMatchViewController: UIViewController {
         }
     }
     @IBAction func image1Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             //Don't do anything but leave error message
         }
@@ -138,7 +155,7 @@ class MemoryMatchViewController: UIViewController {
     }
     
     @IBAction func image2Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             //Dont do anything
         }
@@ -152,7 +169,7 @@ class MemoryMatchViewController: UIViewController {
     }
     
     @IBAction func image3Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             //Dont do anything
         }
@@ -166,7 +183,7 @@ class MemoryMatchViewController: UIViewController {
     }
     
     @IBAction func image4Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             //Dont do anything
         }
@@ -179,7 +196,7 @@ class MemoryMatchViewController: UIViewController {
         
     }
     @IBAction func image5Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             
         }
@@ -192,7 +209,7 @@ class MemoryMatchViewController: UIViewController {
     }
     
     @IBAction func image6Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             
         }
@@ -205,7 +222,7 @@ class MemoryMatchViewController: UIViewController {
     }
     
     @IBAction func image7Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             
         }
@@ -218,7 +235,7 @@ class MemoryMatchViewController: UIViewController {
         
     }
     @IBAction func image8Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             
         }
@@ -231,7 +248,7 @@ class MemoryMatchViewController: UIViewController {
         
     }
     @IBAction func image9Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             
         }
@@ -244,7 +261,7 @@ class MemoryMatchViewController: UIViewController {
     }
     
     @IBAction func image10Action(_ sender: Any) {
-        if (cardsOpen > 2)
+        if (cardsOpen > 1)
         {
             
         }

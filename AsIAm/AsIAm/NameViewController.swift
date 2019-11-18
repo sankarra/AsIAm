@@ -13,11 +13,12 @@ class NameViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        continueButtonOutlet.layer.cornerRadius = 15
         // Do any additional setup after loading the view.
     }
     
     
+    @IBOutlet weak var continueButtonOutlet: UIButton!
     
 
     

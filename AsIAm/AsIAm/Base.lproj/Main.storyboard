@@ -52,6 +52,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="M7f-Pl-b6W"/>
                     <connections>
+                        <outlet property="continueButtonOutlet" destination="eAK-06-8Jf" id="ft1-qE-YAA"/>
                         <outlet property="nameField" destination="SEZ-vp-7XF" id="yUa-0a-8T9"/>
                         <segue destination="upE-7L-BKL" kind="show" identifier="continueSegue" id="mwN-dd-B5D"/>
                     </connections>
@@ -246,6 +247,8 @@
                         <viewLayoutGuide key="safeArea" id="dki-EM-c5j"/>
                     </view>
                     <connections>
+                        <outlet property="continueButtonOutlet" destination="bd8-He-DJv" id="q9v-zM-xxR"/>
+                        <outlet property="mynameisnthereButtonOutlet" destination="JE3-nm-wQx" id="jvg-yH-kAV"/>
                         <outlet property="pickerSelection" destination="kWp-Ex-BDR" id="JLA-xE-eox"/>
                         <segue destination="2iB-If-Rl1" kind="show" identifier="nameSelectedSegue" id="Az0-Mi-xUB"/>
                     </connections>
