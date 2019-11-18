@@ -31,6 +31,7 @@
 		A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084D2334581600FDD480 /* ModuleViewController.swift */; };
 		A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */; };
 		A1CCDA9C23724AE2007CB021 /* StreamVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */; };
+		CF48806823821D93008A717A /* UnicornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48806723821D93008A717A /* UnicornViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		A134084D2334581600FDD480 /* ModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleViewController.swift; sourceTree = "<group>"; };
 		A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickViewController.swift; sourceTree = "<group>"; };
 		A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamVideoViewController.swift; sourceTree = "<group>"; };
+		CF48806723821D93008A717A /* UnicornViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicornViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		A134081C2334433A00FDD480 /* AsIAm */ = {
 			isa = PBXGroup;
 			children = (
+				CF48806723821D93008A717A /* UnicornViewController.swift */,
 				685CBDF8235D1FDB00BD973F /* fonts */,
 				3FC373F223467B840034F4B9 /* UserProfile.swift */,
 				3FC373F423467E170034F4B9 /* UsersModel.swift */,
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */,
+				CF48806823821D93008A717A /* UnicornViewController.swift in Sources */,
 				684FD0ED237E08E20000142E /* QuizViewController.swift in Sources */,
 				A13408202334433A00FDD480 /* ViewController.swift in Sources */,
 				3FC373F323467B840034F4B9 /* UserProfile.swift in Sources */,

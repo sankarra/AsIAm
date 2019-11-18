@@ -59,7 +59,7 @@ class ShadowViewController: UIViewController {
     
     @IBAction func buttonAPress(_ sender: Any) {
         if(match(left: activeImageIndex, right: 1)){ //match
-            setButtonImage(button: buttonA, image: greenCircle)
+            setButtonImage(button: buttonA, image: correctImages[activeImageIndex])
             solved[activeImageIndex] = true;
             ifEndGame()
         }
@@ -67,7 +67,7 @@ class ShadowViewController: UIViewController {
     
     @IBAction func buttonBPress(_ sender: Any) {
         if(match(left: activeImageIndex, right: 2)){ //match
-            setButtonImage(button: buttonB, image: greenSquare)
+            setButtonImage(button: buttonB, image: correctImages[activeImageIndex])
             solved[activeImageIndex] = true;
             ifEndGame()
         }
@@ -75,7 +75,7 @@ class ShadowViewController: UIViewController {
     
     @IBAction func buttonCPress(_ sender: Any) {
         if(match(left: activeImageIndex, right: 3)){ //match
-            setButtonImage(button: buttonC, image: greenTriangle)
+            setButtonImage(button: buttonC, image: correctImages[activeImageIndex])
             solved[activeImageIndex] = true;
             ifEndGame()
         }
@@ -83,31 +83,87 @@ class ShadowViewController: UIViewController {
     
     
 
-    var blackCircle = UIImage(named: "Black-Circle.png") as UIImage?
-    var greenCircle = UIImage(named: "Green-Circle.png") as UIImage?
-    var blackSquare = UIImage(named: "Black-Square.png") as UIImage?
-    var greenSquare = UIImage(named: "Green-Square.png") as UIImage?
-    var blackTriangle = UIImage(named: "Black-Triangle.png") as UIImage?
-    var greenTriangle = UIImage(named: "Green-Triangle.png") as UIImage?
 
-    
-    var matchArray = [2,3,1]   //index is left image, element is right image
+
+
+    var matchArray = [2,3,1]   //index is left image, element is right image, 0->b, 1->c, 2->a
     
     var activeImageIndex = -1
     var solved = [false, false, false] //which of the left images are successfully matched
     
+    var words: [[Any]] = [];
+    var dict: [[String: Any]] = []
     
+    var leftButtons = [UIButton(), UIButton(), UIButton()] //placeholder
+    var rightButtons = [UIButton(), UIButton(), UIButton()] //placeholder
     
+
+    var correctImages = [UIImage(), UIImage(), UIImage()]
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        setButtonImage(button: buttonA, image: blackCircle)
-        setButtonImage(button: buttonB, image: blackSquare)
-        setButtonImage(button: buttonC, image: blackTriangle)
         
-        setButtonImage(button: button0, image: greenSquare)
-        setButtonImage(button: button1, image: greenTriangle)
+        leftButtons = [button0, button1, button2]
+        rightButtons = [buttonA, buttonB, buttonC]
+
+        var arrayOfPictureNames = ["", "", ""]
+        
+        //Modularizing memory cards
+        dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
+        let words = dict[ModuleNavModel.shared.selectedSubtopic]["QuizItems"] as! [[String: String]]
+        print(words.count)
+
+        var counter = 0;
+        for word in words{
+            //code to procedurally generate imageviews
+            let picture = word["pictureURL"]
+            arrayOfPictureNames[counter] = picture!
+            counter += 1
+            if (counter == 3) { break }
+        }
+        
+
+        correctImages[0] = UIImage(named: arrayOfPictureNames[0])!
+        setButtonImage(button: leftButtons[0], image: UIImage(named: arrayOfPictureNames[0]) as UIImage?)
+        setButtonImage(button: rightButtons[1], image: UIImage(named: arrayOfPictureNames[0]+"shadow") as UIImage?)
+        
+        correctImages[1] = UIImage(named: arrayOfPictureNames[1])!
+        setButtonImage(button: leftButtons[1], image: UIImage(named: arrayOfPictureNames[1]) as UIImage?)
+        setButtonImage(button: rightButtons[2], image: UIImage(named: arrayOfPictureNames[1]+"shadow") as UIImage?)
+
+        correctImages[2] = UIImage(named: arrayOfPictureNames[2])!
+        setButtonImage(button: leftButtons[2], image: UIImage(named: arrayOfPictureNames[2]) as UIImage?)
+        setButtonImage(button: rightButtons[0], image: UIImage(named: arrayOfPictureNames[2]+"shadow") as UIImage?)
+
+        
+        
+        
+        /*
+         OLD CODE
+         var blackCircle = UIImage(named: "Black-Circle.png") as UIImage?
+        var greenCircle = UIImage(named: "Green-Circle.png") as UIImage?
+        var blackSquare = UIImage(named: "Black-Square.png") as UIImage?
+        var greenSquare = UIImage(named: "Green-Square.png") as UIImage?
+        var blackTriangle = UIImage(named: "Black-Triangle.png") as UIImage?
+        var greenTriangle = UIImage(named: "Green-Triangle.png") as UIImage?
+        
+        
+        setButtonImage(button: buttonA, image: blackCircle)
         setButtonImage(button: button2, image: greenCircle)
+        
+        
+        setButtonImage(button: buttonB, image: blackSquare)
+        setButtonImage(button: button0, image: greenSquare)
+        
+        setButtonImage(button: buttonC, image: blackTriangle)
+        setButtonImage(button: button1, image: greenTriangle)*/
+
+        
+
+        
+        
+        
 
     }
     
@@ -139,5 +195,4 @@ class ShadowViewController: UIViewController {
     }
 
 }
-
 

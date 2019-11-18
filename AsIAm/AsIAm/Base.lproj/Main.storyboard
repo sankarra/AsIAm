@@ -382,7 +382,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Caring/Sharing"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic0" id="Wov-uS-bxm"/>
+                                    <action selector="subtopic1DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="n2X-da-jRn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zq-BQ-Rka">
@@ -390,7 +390,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Liking/Loving"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic1" id="TaC-kx-tA9"/>
+                                    <action selector="subtopic2DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="6T2-lW-mWb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="754" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nca-en-YkO">
@@ -398,7 +398,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Communication"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic2" id="5e2-Mj-VOe"/>
+                                    <action selector="subtopic3DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="PkK-af-JEB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fA-Pk-3kZ">
@@ -406,7 +406,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Risk Taking"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic3" id="Kug-OR-FXi"/>
+                                    <action selector="subtopic4DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="e1c-kk-lCh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="236" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w88-LP-3rD">
@@ -414,7 +414,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Vulnerability"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic4" id="MDX-T4-j0l"/>
+                                    <action selector="subtopic5DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="Lh7-8u-OWU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBf-BH-ahP">
@@ -422,7 +422,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Self-disclosure"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic5" id="hGg-m1-tfD"/>
+                                    <action selector="subtopic6DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="Faa-iM-wGN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="754" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65c-BW-3Ow">
@@ -430,7 +430,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Trust"/>
                                 <connections>
-                                    <segue destination="DDy-jq-DC8" kind="show" identifier="subtopic6" id="j1C-3e-gsD"/>
+                                    <action selector="subtopic7DidClick:" destination="VRI-N5-LlT" eventType="touchUpInside" id="3q9-Mf-kSh"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="blackCircle" translatesAutoresizingMaskIntoConstraints="NO" id="OAg-SA-xdb">
@@ -481,67 +481,17 @@
                         <outlet property="subtopicButton5" destination="w88-LP-3rD" id="t26-qR-2Po"/>
                         <outlet property="subtopicButton6" destination="sBf-BH-ahP" id="oQj-lv-wHz"/>
                         <outlet property="subtopicButton7" destination="65c-BW-3Ow" id="hWZ-Kw-oIa"/>
+                        <segue destination="zgF-Dt-Q3n" kind="show" identifier="unicornSegue" id="IE4-xN-l5Z"/>
+                        <segue destination="D4t-OC-Gj6" kind="show" identifier="memorySegue" id="WGf-2e-Kq4"/>
+                        <segue destination="i9o-jY-elL" kind="show" identifier="matchingSegue" id="keS-hc-UWt"/>
+                        <segue destination="cAf-0x-FLR" kind="show" identifier="multipleChoiceSegue" id="uTx-yz-C12"/>
+                        <segue destination="Wmc-gy-uGZ" kind="show" identifier="identifySegue" id="iM6-3p-FPy"/>
+                        <segue destination="0GY-t9-2u6" kind="show" identifier="setUpSegue" id="uzO-Xj-9Rg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AOX-dn-5en" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1334.7826086956522" y="-241.07142857142856"/>
-        </scene>
-        <!--Subtopic View Controller-->
-        <scene sceneID="duW-rK-Cf9">
-            <objects>
-                <viewController id="DDy-jq-DC8" customClass="SubtopicViewController" customModule="AsIAm" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ld3-eP-bAu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeC-zX-G3w">
-                                <rect key="frame" x="141" y="344" width="132" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="LEARN">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0GY-t9-2u6" kind="show" id="fzR-zr-dzf"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caring/Sharing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjn-85-Jbv">
-                                <rect key="frame" x="63" y="107" width="288" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q1-mI-T4O">
-                                <rect key="frame" x="141" y="223" width="132" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.31265164839999998" green="0.45422856519999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="PLAY">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="playButton:" destination="DDy-jq-DC8" eventType="touchUpInside" id="fgV-d2-KWf"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.84313725490000002" green="0.59999999999999998" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="vaF-8k-fXm"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="uqE-Hh-bv1"/>
-                    <connections>
-                        <outlet property="subtopicLabel" destination="jjn-85-Jbv" id="tWG-SI-ojK"/>
-                        <segue destination="e9y-us-bYE" kind="show" identifier="dragMatchingSegue" id="1kW-xZ-1xf"/>
-                        <segue destination="fyH-bi-27h" kind="show" identifier="multipleChoiceSegue" id="wm8-aU-WYJ"/>
-                        <segue destination="D4t-OC-Gj6" kind="show" identifier="memorySegue" id="TTX-Dz-rZy"/>
-                        <segue destination="zgF-Dt-Q3n" kind="show" identifier="unicornSegue" id="3im-U7-v8q"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0sc-m2-XPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2119" y="-242"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pww-Xk-6o3">
@@ -1046,6 +996,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tKV-kW-SGO"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Asp-L5-ZHI"/>
                     <connections>
                         <outlet property="emotionallyAttractView" destination="vB2-if-DVY" id="ouY-lb-qhx"/>
                         <outlet property="femEmoSlider" destination="I9l-DZ-4iC" id="r01-eQ-2su"/>
@@ -1077,7 +1028,7 @@
             <objects>
                 <viewController id="e9y-us-bYE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f7F-gy-xks">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button_background" translatesAutoresizingMaskIntoConstraints="NO" id="vyt-Nq-JqT">
@@ -1204,7 +1155,7 @@
             <objects>
                 <viewController id="fyH-bi-27h" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R5w-bE-Pco">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stick" translatesAutoresizingMaskIntoConstraints="NO" id="oto-FC-Xbf">
@@ -1487,14 +1438,14 @@
             <objects>
                 <viewController id="cAf-0x-FLR" customClass="QuizViewController" customModule="AsIAm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fx3-dW-B7r">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8fK-NI-jNa">
-                                <rect key="frame" x="57" y="97" width="300" height="300"/>
+                                <rect key="frame" x="57" y="109" width="300" height="234"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the correct answer" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAt-xj-i8M" userLabel="Question">
-                                <rect key="frame" x="57" y="415" width="300" height="75"/>
+                                <rect key="frame" x="57" y="361" width="300" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="Hmm-fj-yS4"/>
                                 </constraints>
@@ -1503,7 +1454,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Q3-j78">
-                                <rect key="frame" x="107" y="498" width="200" height="230"/>
+                                <rect key="frame" x="107" y="444" width="200" height="230"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-jJ-wMX" userLabel="Answer1">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
@@ -1564,7 +1515,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xra-eJ-Fz3">
-                                <rect key="frame" x="57" y="764" width="300" height="75"/>
+                                <rect key="frame" x="57" y="710" width="300" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="jwu-24-Xi5"/>
                                 </constraints>
@@ -1590,6 +1541,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fe7-RH-Krw"/>
                     </view>
+                    <navigationItem key="navigationItem" id="IAp-s7-Mj1"/>
                     <connections>
                         <outlet property="answer1" destination="5Qx-jJ-wMX" id="dxc-KP-ZVy"/>
                         <outlet property="answer2" destination="jvG-iF-jJr" id="Ubl-hd-v94"/>
@@ -1694,7 +1646,7 @@
             <objects>
                 <viewController id="Wmc-gy-uGZ" customClass="SlideshowStackViewController" customModule="AsIAm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rqy-nK-BRN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J5O-r6-yJI">
@@ -1712,6 +1664,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BJz-mF-KMx"/>
                     </view>
+                    <navigationItem key="navigationItem" id="has-lO-0FJ"/>
                     <connections>
                         <outlet property="scroller" destination="J5O-r6-yJI" id="HHU-o2-o3X"/>
                     </connections>
@@ -1725,7 +1678,7 @@
             <objects>
                 <viewController id="i9o-jY-elL" customClass="ShadowViewController" customModule="AsIAm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Kv-Av-agq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sLg-pu-6pC">
@@ -1792,6 +1745,7 @@
                         <color key="backgroundColor" red="0.72941176470000002" green="0.92156862750000001" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Tfw-e6-n34"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5Xg-59-72G"/>
                     <connections>
                         <outlet property="button0" destination="sLg-pu-6pC" id="vVd-YZ-p20"/>
                         <outlet property="button1" destination="mvK-Oe-QvY" id="BkZ-BA-T4l"/>
@@ -1823,8 +1777,7 @@
         <image name="stick" width="488" height="616"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kug-OR-FXi"/>
-        <segue reference="jEF-Mo-5V4"/>
+        <segue reference="Vyi-cs-6uo"/>
         <segue reference="Az0-Mi-xUB"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -65,36 +65,69 @@ class ModuleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func transition(_ subtopic: Int){
+        ModuleNavModel.shared.selectedSubtopic = subtopic
+        let gameType = (ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]) [ModuleNavModel.shared.selectedSubtopic]["GameType"] as? String
+        switch gameType{
+        case "Identify":
+            self.performSegue(withIdentifier: "identifySegue", sender: self)
+            break;
+        case "Matching":
+            self.performSegue(withIdentifier: "matchingSegue", sender: self)
+            break;
+        case "Memory":
+            self.performSegue(withIdentifier: "memorySegue", sender: self)
+            break;
+        case "MultipleChoice":
+            self.performSegue(withIdentifier: "multipleChoiceSegue", sender: self)
+            break;
+        case "SetUp":
+            self.performSegue(withIdentifier: "setUpSegue", sender: self)
+            break;
+        case "Unicorn":
+            self.performSegue(withIdentifier: "unicornSegue", sender: self)
+            break;
+        default:
+            break;
+        }
+    }
 
+    @IBAction func subtopic1DidClick(_ sender: Any) {
+        transition(0)
+    }
+    
+    
+    @IBAction func subtopic2DidClick(_ sender: Any) {
+        transition(1)
+    }
+    
+    
+    @IBAction func subtopic3DidClick(_ sender: Any) {
+        transition(2)
+    }
+    
+    @IBAction func subtopic4DidClick(_ sender: Any) {
+        transition(3)
+    }
+    
+    @IBAction func subtopic5DidClick(_ sender: Any) {
+        transition(4)
+    }
+    
+    @IBAction func subtopic6DidClick(_ sender: Any) {
+        transition(5)
+    }
+    
+    @IBAction func subtopic7DidClick(_ sender: Any) {
+        transition(6)
+    }
     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-        if (segue.identifier == "subtopic0"){
-            ModuleNavModel.shared.selectedSubtopic = 0
-        }
-        if (segue.identifier == "subtopic1"){
-            ModuleNavModel.shared.selectedSubtopic = 1
-        }
-        if (segue.identifier == "subtopic2"){
-            ModuleNavModel.shared.selectedSubtopic = 2
-        }
-        if (segue.identifier == "subtopic3"){
-            ModuleNavModel.shared.selectedSubtopic = 3
-        }
-        if (segue.identifier == "subtopic4"){
-            ModuleNavModel.shared.selectedSubtopic = 4
-        }
-        if (segue.identifier == "subtopic5"){
-            ModuleNavModel.shared.selectedSubtopic = 5
-        }
-        if (segue.identifier == "subtopic6"){
-            ModuleNavModel.shared.selectedSubtopic = 6
-        }
-    }
+   // override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    //}
     
 
    
