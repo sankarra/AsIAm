@@ -10,6 +10,7 @@ import UIKit
 
 class ShadowViewController: UIViewController {
     
+    @IBOutlet weak var endGameLabel: UILabel!
     
     //right side, top to bottom
     @IBOutlet weak var buttonA: UIButton!
@@ -104,6 +105,8 @@ class ShadowViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        endGameLabel.isHidden = true
+        
         leftButtons = [button0, button1, button2]
         rightButtons = [buttonA, buttonB, buttonC]
 
@@ -190,7 +193,14 @@ class ShadowViewController: UIViewController {
 
     func ifEndGame(){
         if (solved[0] && solved[1] && solved[2]){
-            //end game sequence
+            endGameLabel.isHidden = false
+            button0.isHidden = true
+            button1.isHidden = true
+            button2.isHidden = true
+            buttonA.isHidden = true
+            buttonB.isHidden = true
+            buttonC.isHidden = true
+
         }
     }
 

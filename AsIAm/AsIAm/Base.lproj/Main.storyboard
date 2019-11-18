@@ -1737,6 +1737,13 @@
                                     <action selector="button2Press:" destination="i9o-jY-elL" eventType="touchUpInside" id="kMG-SN-SlD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOU WON!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WF5-SU-6Wo">
+                                <rect key="frame" x="90" y="392" width="234" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.72941176470000002" green="0.92156862750000001" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Tfw-e6-n34"/>
@@ -1749,11 +1756,12 @@
                         <outlet property="buttonA" destination="4cL-E8-fpo" id="CWO-vM-jiD"/>
                         <outlet property="buttonB" destination="Qql-7i-wGk" id="MVg-0u-uRz"/>
                         <outlet property="buttonC" destination="6u1-n9-bbO" id="Z2B-LM-frj"/>
+                        <outlet property="endGameLabel" destination="WF5-SU-6Wo" id="9UB-AL-pNe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWu-UQ-B64" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-636" y="1148"/>
+            <point key="canvasLocation" x="-636.23188405797111" y="1147.7678571428571"/>
         </scene>
     </scenes>
     <resources>
