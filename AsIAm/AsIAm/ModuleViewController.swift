@@ -14,8 +14,6 @@ class ModuleViewController: UIViewController {
 
     @IBOutlet weak var avatarImage: UIImageView!
     
-    
-    @IBOutlet weak var moduleCloud: UIImageView!
     @IBOutlet weak var moduleDescLabel: UITextView!
     @IBOutlet weak var moduleNameLabel: UILabel!
     
@@ -43,28 +41,28 @@ class ModuleViewController: UIViewController {
         let moduleNum = ModuleNavModel.shared.selectedModule
         switch moduleNum{
         // sexual health and reproduction
+        // light purple
         case 0:
-            view.backgroundColor = UIColor(red: 246.0/255.0, green: 220.0/255.0, blue: 220.0/255.0, alpha: 100)
-            moduleCloud.image = UIImage(named: "sex_repro_cloud")
+            view.backgroundColor = UIColor(red: 230.0/255.0, green: 230.0/255.0, blue: 250.0/255.0, alpha: 100)
             break
         // power and sexualization
+        // peach
         case 1:
-            view.backgroundColor = UIColor(red: 246.0/255.0, green: 244.0/255.0, blue: 220.0/255.0, alpha: 100)
-            moduleCloud.image = UIImage(named: "power_sex_cloud")
+            view.backgroundColor = UIColor(red: 255.0/255.0, green: 218.0/255.0, blue: 185.0/255.0, alpha: 100)
             break
         //sexual identity
+        // mustard
         case 2:
-            view.backgroundColor = UIColor(red: 246.0/255.0, green: 220.0/255.0, blue: 246.0/255.0, alpha: 100)
-            moduleCloud.image = UIImage(named: "sex_identity_cloud")
+            view.backgroundColor = UIColor(red: 255.0/255.0, green: 219.0/255.0, blue: 88.0/255.0, alpha: 100)
             break
         // sensuality
+        // tan
         case 3:
-            view.backgroundColor = UIColor(red: 220.0/255.0, green: 240.0/255.0, blue: 246.0/255.0, alpha: 100)
-            moduleCloud.image = UIImage(named: "sensulaity_cloud")
+            view.backgroundColor = UIColor(red: 210.0/255.0, green: 180.0/255.0, blue: 140.0/255.0, alpha: 100)
             break
         // intimacy
         default:
-            moduleCloud.image = UIImage(named: "intimacy_cloud")
+            
             break
         }
 
