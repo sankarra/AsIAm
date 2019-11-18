@@ -11,19 +11,21 @@ import UIKit
 class AvatarPickViewController: UIViewController {
 
     
-    @IBAction func greenAvatar(_ sender: Any) {
+    @IBAction func robertAvatar(_ sender: Any) {
+        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "Robert"))
         
-        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "green"))
-        
     }
-    @IBAction func pinkAvatar(_ sender: Any) {
-        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "pink"))
+    
+    
+    @IBAction func emmaAvatar(_ sender: Any) {
+        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "Emma"))
     }
-    @IBAction func orangeAvatar(_ sender: Any) {
-        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "orange"))
+    @IBAction func nathanAvatar(_ sender: Any) {
+        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "Nathan"))
     }
-    @IBAction func purpleAvatar(_ sender: Any) {
-        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "purple"))
+    
+    @IBAction func ashleyAvatar(_ sender: Any) {
+        UsersModel.shared.insert(user: UserProfile(name: myVariables.userName, avatar: "Ashley"))
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -12,6 +12,9 @@ import UIKit
 
 class ModuleViewController: UIViewController {
 
+    @IBOutlet weak var avatarImage: UIImageView!
+    
+    
     @IBOutlet weak var moduleCloud: UIImageView!
     @IBOutlet weak var moduleDescLabel: UITextView!
     @IBOutlet weak var moduleNameLabel: UILabel!
@@ -26,6 +29,9 @@ class ModuleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        avatarImage.image = UIImage(named: "\(UsersModel.shared.user(at: UsersModel.shared.selectedIndex).avatar)study")
+        
         let buttonArray: [UIButton] = [subtopicButton1, subtopicButton2, subtopicButton3, subtopicButton4, subtopicButton5, subtopicButton6, subtopicButton7]
         let dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
         for (index,button) in buttonArray.enumerated(){

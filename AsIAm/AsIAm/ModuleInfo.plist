@@ -6,7 +6,7 @@
 		<key>ModuleName</key>
 		<string>Sexual Health &amp; Reproduction</string>
 		<key>VideoURL</key>
-		<string>https://youtube.com/watch?v=wZ6T8wrqjAE</string>
+		<string>https://youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1</string>
 		<key>AvatarPose</key>
 		<string>profile</string>
 		<key>Subtopics</key>
@@ -878,7 +878,7 @@
 		<key>ModuleName</key>
 		<string>Power &amp; Sexualization</string>
 		<key>VideoURL</key>
-		<string>https://youtube.com/watch?v=09m9Hv0Ajto</string>
+		<string>https://youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1</string>
 		<key>AvatarPose</key>
 		<string>profile</string>
 		<key>Subtopics</key>
@@ -1806,7 +1806,7 @@
 		<key>ModuleName</key>
 		<string>Sexual Identity</string>
 		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
+		<string>https://youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1</string>
 		<key>Subtopics</key>
 		<array>
 			<dict>
@@ -2730,7 +2730,7 @@
 		<key>ModuleName</key>
 		<string>Sensuality</string>
 		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
+		<string>https://youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1</string>
 		<key>AvatarPose</key>
 		<string>profile</string>
 		<key>Subtopics</key>
@@ -3644,7 +3644,7 @@
 		<key>ModuleName</key>
 		<string>Intimacy</string>
 		<key>VideoURL</key>
-		<string>https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
+		<string>https://youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1</string>
 		<key>AvatarPose</key>
 		<string>profile</string>
 		<key>Subtopics</key>

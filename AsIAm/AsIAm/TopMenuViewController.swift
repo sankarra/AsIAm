@@ -10,9 +10,12 @@ import UIKit
 
 class TopMenuViewController: UIViewController {
 
+    @IBOutlet weak var avatar: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        avatar.image = UIImage(named: "\(UsersModel.shared.user(at: UsersModel.shared.selectedIndex).avatar)profile")
         intamacyCircle.layer.masksToBounds = true
         intamacyCircle.layer.cornerRadius = intamacyCircle.bounds.width / 2
         
