@@ -17,7 +17,7 @@ class StreamVideoViewController: UIViewController, WKUIDelegate {
 
         let webviewConfig = WKWebViewConfiguration()
         webviewConfig.allowsInlineMediaPlayback = true
-        let videoURL = URL(string: "https://www.youtube.com/embed/1U9lfJwCHuQ?playsinline=1?autoplay=1")
+        let videoURL = URL(string: "https://www.youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1")
         let videoRequest = URLRequest(url: videoURL!)
         webView.load(videoRequest)
         // Do any additional setup after loading the view.

@@ -15,9 +15,9 @@ class SlideshowStackViewController: UIViewController {
    @IBOutlet weak var desc: UILabel!
    @IBOutlet weak var scroller: UIScrollView!
    @objc func buttonClicked(sender: UIButton){
-       //name.text = sender.title(for: .disabled)
-       //desc.text = sender.title(for: .focused)
-       //picture.image = sender.backgroundImage(for: .normal)
+       name.text = sender.title(for: .disabled)
+       desc.text = sender.title(for: .focused)
+       picture.image = sender.backgroundImage(for: .normal)
 
    }
 
