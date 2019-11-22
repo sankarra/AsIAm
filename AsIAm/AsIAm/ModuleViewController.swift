@@ -28,6 +28,27 @@ class ModuleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        subtopicButton1.layer.cornerRadius = 15
+//        subtopicButton1.layer.borderWidth = 1
+        
+        subtopicButton2.layer.cornerRadius = 15
+//        subtopicButton2.layer.borderWidth = 1
+        
+        subtopicButton3.layer.cornerRadius = 15
+//        subtopicButton3.layer.borderWidth = 1
+        
+        subtopicButton4.layer.cornerRadius = 15
+//        subtopicButton4.layer.borderWidth = 1
+        
+        subtopicButton5.layer.cornerRadius = 15
+//        subtopicButton5.layer.borderWidth = 1
+        
+        subtopicButton6.layer.cornerRadius = 15
+//        subtopicButton6.layer.borderWidth = 1
+        
+        subtopicButton7.layer.cornerRadius = 15
+//        subtopicButton7.layer.borderWidth = 1
+        
         avatarImage.image = UIImage(named: "\(UsersModel.shared.user(at: UsersModel.shared.selectedIndex).avatar)study")
         
         let buttonArray: [UIButton] = [subtopicButton1, subtopicButton2, subtopicButton3, subtopicButton4, subtopicButton5, subtopicButton6, subtopicButton7]

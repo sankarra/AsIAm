@@ -17,19 +17,19 @@ class TopMenuViewController: UIViewController {
         
         avatar.image = UIImage(named: "\(UsersModel.shared.user(at: UsersModel.shared.selectedIndex).avatar)profile")
         intamacyCircle.layer.masksToBounds = true
-        intamacyCircle.layer.cornerRadius = intamacyCircle.bounds.width / 2
+        intamacyCircle.layer.cornerRadius = intamacyCircle.bounds.width/5
         
         sexualIdentityCircle.layer.masksToBounds = true
-        sexualIdentityCircle.layer.cornerRadius = sexualIdentityCircle.bounds.width/2
+        sexualIdentityCircle.layer.cornerRadius = sexualIdentityCircle.bounds.width/5
         
         powerCircle.layer.masksToBounds = true
-        powerCircle.layer.cornerRadius = powerCircle.bounds.width/2
+        powerCircle.layer.cornerRadius = powerCircle.bounds.width/5
         
         sensualityCircle.layer.masksToBounds = true
-        sensualityCircle.layer.cornerRadius = sensualityCircle.bounds.width/2
+        sensualityCircle.layer.cornerRadius = sensualityCircle.bounds.width/5
         
         sexualHealthCircle.layer.masksToBounds = true
-        sexualHealthCircle.layer.cornerRadius = sexualHealthCircle.bounds.width/2
+        sexualHealthCircle.layer.cornerRadius = sexualHealthCircle.bounds.width/5
 
         // Do any additional setup after loading the view.
     }

@@ -53,6 +53,11 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        answer1.layer.cornerRadius = 15
+        answer2.layer.cornerRadius = 15
+        answer3.layer.cornerRadius = 15
+        answer4.layer.cornerRadius = 15
+        
         answer1.setTitle("A", for: .normal)
         answer2.setTitle("B", for: .normal)
         answer3.setTitle("C", for: .normal)
@@ -61,7 +66,8 @@ class QuizViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    
     /*
     // MARK: - Navigation
 

@@ -31,6 +31,7 @@
 		A134084E2334581600FDD480 /* ModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134084D2334581600FDD480 /* ModuleViewController.swift */; };
 		A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */; };
 		A1CCDA9C23724AE2007CB021 /* StreamVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */; };
+		CF18B0B623887D14005AB302 /* DefaultAvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18B0B523887D14005AB302 /* DefaultAvatarViewController.swift */; };
 		CF48806823821D93008A717A /* UnicornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48806723821D93008A717A /* UnicornViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		A134084D2334581600FDD480 /* ModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleViewController.swift; sourceTree = "<group>"; };
 		A13DDB7C2346A49F00AD91EA /* AvatarPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickViewController.swift; sourceTree = "<group>"; };
 		A1CCDA9B23724AE2007CB021 /* StreamVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamVideoViewController.swift; sourceTree = "<group>"; };
+		CF18B0B523887D14005AB302 /* DefaultAvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAvatarViewController.swift; sourceTree = "<group>"; };
 		CF48806723821D93008A717A /* UnicornViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicornViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 				5BABA40A233D91500043DF7B /* HomeViewController.swift */,
 				A134081D2334433A00FDD480 /* AppDelegate.swift */,
 				A134081F2334433A00FDD480 /* ViewController.swift */,
+				CF18B0B523887D14005AB302 /* DefaultAvatarViewController.swift */,
 				A13408212334433A00FDD480 /* Main.storyboard */,
 				5B0474ED237E1C6100483229 /* ShadowViewController.swift */,
 				3F917D16235A83F700A77203 /* SubtopicViewController.swift */,
@@ -329,6 +332,7 @@
 				684FD0EF237E0FD80000142E /* SlideShowViewController.swift in Sources */,
 				3F917D17235A83F700A77203 /* SubtopicViewController.swift in Sources */,
 				A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */,
+				CF18B0B623887D14005AB302 /* DefaultAvatarViewController.swift in Sources */,
 				68AF8E01237F2EB70093B653 /* SlideshowStackViewController.swift in Sources */,
 				3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */,
 				A13DDB7D2346A49F00AD91EA /* AvatarPickViewController.swift in Sources */,
