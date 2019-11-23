@@ -28,26 +28,7 @@ class ModuleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        subtopicButton1.layer.cornerRadius = 15
-//        subtopicButton1.layer.borderWidth = 1
         
-        subtopicButton2.layer.cornerRadius = 15
-//        subtopicButton2.layer.borderWidth = 1
-        
-        subtopicButton3.layer.cornerRadius = 15
-//        subtopicButton3.layer.borderWidth = 1
-        
-        subtopicButton4.layer.cornerRadius = 15
-//        subtopicButton4.layer.borderWidth = 1
-        
-        subtopicButton5.layer.cornerRadius = 15
-//        subtopicButton5.layer.borderWidth = 1
-        
-        subtopicButton6.layer.cornerRadius = 15
-//        subtopicButton6.layer.borderWidth = 1
-        
-        subtopicButton7.layer.cornerRadius = 15
-//        subtopicButton7.layer.borderWidth = 1
         
         avatarImage.image = UIImage(named: "\(UsersModel.shared.user(at: UsersModel.shared.selectedIndex).avatar)study")
         
@@ -88,6 +69,55 @@ class ModuleViewController: UIViewController {
         }
 
         // Do any additional setup after loading the view.
+
+        subtopicButton1.layer.cornerRadius = 15
+        //        subtopicButton1.layer.borderWidth = 1
+        //subtopicButton1.titleLabel?.numberOfLines = 0
+        //subtopicButton1.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton1.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+                
+                subtopicButton2.layer.cornerRadius = 15
+        //        subtopicButton2.layer.borderWidth = 1
+        //subtopicButton2.titleLabel?.numberOfLines = 0
+               //subtopicButton2.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton2.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+                
+                subtopicButton3.layer.cornerRadius = 15
+        //        subtopicButton3.layer.borderWidth = 1
+        //subtopicButton3.titleLabel?.numberOfLines = 0
+               //subtopicButton3.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton3.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+                
+                subtopicButton4.layer.cornerRadius = 15
+        //        subtopicButton4.layer.borderWidth = 1
+        //subtopicButton4.titleLabel?.numberOfLines = 0
+               //subtopicButton4.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton4.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+                
+                subtopicButton5.layer.cornerRadius = 15
+        //        subtopicButton5.layer.borderWidth = 1
+        //subtopicButton5.titleLabel?.numberOfLines = 0
+               //subtopicButton5.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton5.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+                
+                subtopicButton6.layer.cornerRadius = 15
+        //        subtopicButton6.layer.borderWidth = 1
+        //subtopicButton6.titleLabel?.numberOfLines = 0
+               //subtopicButton6.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton6.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+                
+                subtopicButton7.layer.cornerRadius = 15
+        //        subtopicButton7.layer.borderWidth = 1
+        //subtopicButton7.titleLabel?.numberOfLines = 0
+            //subtopicButton7.titleLabel?.minimumScaleFactor = 0.5
+        //subtopicButton7.titleLabel?.adjustsFontSizeToFitWidth = true
+        
     }
     
     func transition(_ subtopic: Int){
