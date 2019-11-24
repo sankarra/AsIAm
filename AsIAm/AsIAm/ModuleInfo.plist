@@ -352,124 +352,40 @@
 				<key>QuizItems</key>
 				<array>
 					<dict>
-						<key>word</key>
-						<string>penis</string>
-						<key>pictureURL</key>
-						<string>penis</string>
-						<key>description</key>
-						<string>The male reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>penisshadow</string>
+						<key>question</key>
+						<string>What is the most effective form of birth control?</string>
+						<key>correctAnswer</key>
+						<string>abstinence</string>
+						<key>wrongAnswer1</key>
+						<string>condoms</string>
+						<key>wrongAnswer2</key>
+						<string>IUDs</string>
+						<key>wrongAnswer3</key>
+						<string>coitus interruptus</string>
 					</dict>
 					<dict>
-						<key>word</key>
-						<string>testicles</string>
-						<key>pictureURL</key>
-						<string>testicle</string>
-						<key>description</key>
-						<string>The organs which produce sperm.</string>
-						<key>shadowURL</key>
-						<string>testicleshadow</string>
+						<key>question</key>
+						<string>What is the most effective form of birth control?</string>
+						<key>correctAnswer</key>
+						<string>abstinence</string>
+						<key>wrongAnswer1</key>
+						<string>condoms</string>
+						<key>wrongAnswer2</key>
+						<string>IUDs</string>
+						<key>wrongAnswer3</key>
+						<string>coitus interruptus</string>
 					</dict>
 					<dict>
-						<key>word</key>
-						<string>vas deferens</string>
-						<key>pictureURL</key>
-						<string>vas deferens</string>
-						<key>description</key>
-						<string>The tube through which semen travels.</string>
-						<key>shadowURL</key>
-						<string>vas deferensshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>glans</string>
-						<key>pictureURL</key>
-						<string>glans</string>
-						<key>description</key>
-						<string>The head of the penis.</string>
-						<key>shadowURL</key>
-						<string>glansshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>prostate</string>
-						<key>pictureURL</key>
-						<string>prostate</string>
-						<key>description</key>
-						<string>A gland which protects sperm.</string>
-						<key>shadowURL</key>
-						<string>prostateshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>vagina</string>
-						<key>pictureURL</key>
-						<string>vagina</string>
-						<key>description</key>
-						<string>The female reproductive organ.</string>
-						<key>shadowURL</key>
-						<string>vaginashadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>uterus</string>
-						<key>pictureURL</key>
-						<string>uterus</string>
-						<key>description</key>
-						<string>The womb where babies develop.</string>
-						<key>shadowURL</key>
-						<string>uterusshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>ovaries</string>
-						<key>pictureURL</key>
-						<string>ovaries</string>
-						<key>description</key>
-						<string>Where eggs are stored in the woman.</string>
-						<key>shadowURL</key>
-						<string>ovariesshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>fallopian tubes</string>
-						<key>pictureURL</key>
-						<string>fallopiantubes</string>
-						<key>description</key>
-						<string>The tubes which eggs travel through.</string>
-						<key>shadowURL</key>
-						<string>fallopiantubesshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>clitoris</string>
-						<key>pictureURL</key>
-						<string>clitoris</string>
-						<key>description</key>
-						<string>An erogenous nub within the vulva.</string>
-						<key>shadowURL</key>
-						<string>clitorisshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>bladder opening</string>
-						<key>pictureURL</key>
-						<string>bladder opening</string>
-						<key>description</key>
-						<string>The tube which urine travels through.</string>
-						<key>shadowURL</key>
-						<string>bladder openingshadow</string>
-					</dict>
-					<dict>
-						<key>word</key>
-						<string>labia minora</string>
-						<key>pictureURL</key>
-						<string>labia</string>
-						<key>description</key>
-						<string>The protective skin flaps over the vulva.</string>
-						<key>shadowURL</key>
-						<string>labiashadow</string>
+						<key>question</key>
+						<string>What is the most effective form of birth control?</string>
+						<key>correctAnswer</key>
+						<string>abstinence</string>
+						<key>wrongAnswer1</key>
+						<string>condoms</string>
+						<key>wrongAnswer2</key>
+						<string>IUDs</string>
+						<key>wrongAnswer3</key>
+						<string>coitus interruptus</string>
 					</dict>
 				</array>
 			</dict>
