@@ -391,31 +391,29 @@
                                 <rect key="frame" x="0.0" y="56" width="104" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" fixedFrame="YES" text="The exchange of emotional closeness between people" translatesAutoresizingMaskIntoConstraints="NO" id="4gt-L7-vGV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="The exchange of emotional closeness between people" translatesAutoresizingMaskIntoConstraints="NO" id="4gt-L7-vGV">
                                 <rect key="frame" x="107" y="134" width="291" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" fixedFrame="YES" text="Intimacy" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNA-7x-zjr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" text="Intimacy" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNA-7x-zjr">
                                 <rect key="frame" x="112" y="60" width="291" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="N0U-1b-pW8">
-                                <rect key="frame" x="60" y="210" width="295" height="582"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="N0U-1b-pW8">
+                                <rect key="frame" x="52" y="193" width="310" height="615"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Xre-zK-eUl">
-                                        <rect key="frame" x="0.0" y="0.0" width="295" height="135"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xre-zK-eUl">
+                                        <rect key="frame" x="0.0" y="0.0" width="310" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cI0-9g-QLR">
-                                                <rect key="frame" x="0.0" y="0.0" width="135.00000000000023" height="135"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150.00000000000023" height="150"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="ICt-xr-1jW"/>
-                                                    <constraint firstAttribute="height" constant="135" id="gel-GF-dJu"/>
+                                                    <constraint firstAttribute="height" constant="150" id="98T-UP-tR9"/>
+                                                    <constraint firstAttribute="width" constant="150" id="U7u-wj-Gq9"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <state key="normal" title="Learn" backgroundImage="StarButton">
@@ -426,11 +424,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" verticalCompressionResistancePriority="753" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="38c-KL-JWI">
-                                                <rect key="frame" x="160" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="1" green="0.73725490196078436" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="135" id="X1Z-3F-H02"/>
-                                                    <constraint firstAttribute="width" constant="135" id="eC7-CP-xLq"/>
+                                                    <constraint firstAttribute="width" constant="150" id="I8W-tl-ckO"/>
+                                                    <constraint firstAttribute="height" constant="150" id="k6O-oJ-0lD"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -443,15 +441,15 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="HXh-mo-qzo">
-                                        <rect key="frame" x="0.0" y="149" width="295" height="135"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HXh-mo-qzo">
+                                        <rect key="frame" x="0.0" y="155" width="310" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1zq-BQ-Rka">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="Rbb-Hl-p5Q"/>
-                                                    <constraint firstAttribute="height" constant="135" id="bnf-Qz-SLu"/>
+                                                    <constraint firstAttribute="width" constant="150" id="49x-0R-5fk"/>
+                                                    <constraint firstAttribute="height" constant="150" id="Clz-Az-SPf"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -463,13 +461,13 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="754" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Nca-en-YkO">
-                                                <rect key="frame" x="160" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="135" id="1AS-x3-4uF"/>
-                                                    <constraint firstAttribute="width" constant="135" id="eTT-D1-aex"/>
+                                                    <constraint firstAttribute="width" constant="150" id="Qw6-RD-hSS"/>
+                                                    <constraint firstAttribute="height" constant="150" id="x7h-Tw-802"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                                 <state key="normal" title="Communication">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -480,15 +478,15 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="oFB-tv-iFk">
-                                        <rect key="frame" x="0.0" y="298" width="295" height="135"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oFB-tv-iFk">
+                                        <rect key="frame" x="0.0" y="310" width="310" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0fA-Pk-3kZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="Kzq-F1-8Wf"/>
-                                                    <constraint firstAttribute="height" constant="135" id="Qj3-QD-W3H"/>
+                                                    <constraint firstAttribute="width" constant="150" id="5qW-ET-liK"/>
+                                                    <constraint firstAttribute="height" constant="150" id="PCK-Qs-GOm"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -500,11 +498,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="236" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="w88-LP-3rD">
-                                                <rect key="frame" x="160" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="Y9r-aq-imw"/>
-                                                    <constraint firstAttribute="height" constant="135" id="j5s-j6-k1a"/>
+                                                    <constraint firstAttribute="width" constant="150" id="S6c-vS-CV1"/>
+                                                    <constraint firstAttribute="height" constant="150" id="m8l-dO-2Yo"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -517,15 +515,15 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="l6f-jk-gGC">
-                                        <rect key="frame" x="0.0" y="447" width="295" height="135"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="l6f-jk-gGC">
+                                        <rect key="frame" x="0.0" y="465" width="310" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sBf-BH-ahP">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="Xty-vp-mUi"/>
-                                                    <constraint firstAttribute="height" constant="135" id="svc-ji-p2R"/>
+                                                    <constraint firstAttribute="width" constant="150" id="3Lc-Ly-4JP"/>
+                                                    <constraint firstAttribute="height" constant="150" id="UgH-T8-KmY"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -537,11 +535,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="754" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="65c-BW-3Ow">
-                                                <rect key="frame" x="160" y="0.0" width="135" height="135"/>
+                                                <rect key="frame" x="160" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="135" id="1ZU-LJ-hcs"/>
-                                                    <constraint firstAttribute="width" constant="135" id="sZk-kf-q9F"/>
+                                                    <constraint firstAttribute="height" constant="150" id="Tf0-Qe-bjq"/>
+                                                    <constraint firstAttribute="width" constant="150" id="jKD-ks-yfr"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <inset key="titleEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
@@ -559,9 +557,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="N0U-1b-pW8" firstAttribute="bottom" secondItem="v8B-4C-BxO" secondAttribute="bottom" constant="-16" id="X92-DV-PMb"/>
-                            <constraint firstItem="N0U-1b-pW8" firstAttribute="leading" secondItem="v8B-4C-BxO" secondAttribute="leading" constant="60" id="cBB-SU-pW2"/>
-                            <constraint firstItem="v8B-4C-BxO" firstAttribute="trailing" secondItem="N0U-1b-pW8" secondAttribute="trailing" constant="59" id="enN-cb-nod"/>
+                            <constraint firstItem="v8B-4C-BxO" firstAttribute="trailing" secondItem="4gt-L7-vGV" secondAttribute="trailing" constant="16" id="0dy-Sg-qFC"/>
+                            <constraint firstItem="tNA-7x-zjr" firstAttribute="leading" secondItem="qUs-pd-TPv" secondAttribute="trailing" constant="8" id="40R-Mu-6RM"/>
+                            <constraint firstItem="4gt-L7-vGV" firstAttribute="leading" secondItem="qUs-pd-TPv" secondAttribute="trailing" constant="3" id="52r-7d-Lvf"/>
+                            <constraint firstItem="tNA-7x-zjr" firstAttribute="top" secondItem="v8B-4C-BxO" secondAttribute="top" constant="4" id="FX1-5z-zw8"/>
+                            <constraint firstItem="N0U-1b-pW8" firstAttribute="top" secondItem="4gt-L7-vGV" secondAttribute="bottom" id="WKm-lN-Emv"/>
+                            <constraint firstItem="N0U-1b-pW8" firstAttribute="leading" secondItem="v8B-4C-BxO" secondAttribute="leading" constant="52" id="WZC-39-Naf"/>
+                            <constraint firstItem="N0U-1b-pW8" firstAttribute="top" secondItem="qUs-pd-TPv" secondAttribute="bottom" constant="-9" id="ahH-X1-ACc"/>
+                            <constraint firstItem="N0U-1b-pW8" firstAttribute="top" secondItem="tNA-7x-zjr" secondAttribute="bottom" constant="54" id="m0i-dp-odB"/>
+                            <constraint firstItem="v8B-4C-BxO" firstAttribute="trailing" secondItem="tNA-7x-zjr" secondAttribute="trailing" constant="11" id="q7G-ib-aL6"/>
+                            <constraint firstItem="4gt-L7-vGV" firstAttribute="top" secondItem="v8B-4C-BxO" secondAttribute="top" constant="78" id="wYx-nL-P2K"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="v8B-4C-BxO"/>
                     </view>

@@ -24,24 +24,28 @@ class QuizViewController: UIViewController {
     
     @IBAction func checkAnswer1(sender: UIButton) {
         if (answer1.currentTitle == answer){
+            answer1.backgroundColor = UIColor(red: 75/255, green: 135/255, blue: 35/255, alpha: 1.0)
             correctResponse()
         }
         else {incorrectResponse()}
     }
     @IBAction func checkAnswer2(sender: UIButton) {
         if (answer2.currentTitle == answer){
+            answer2.backgroundColor = UIColor(red: 75/255, green: 135/255, blue: 35/255, alpha: 1.0)
             correctResponse()
         }
         else {incorrectResponse()}
     }
     @IBAction func checkAnswer3(sender: UIButton) {
         if (answer3.currentTitle == answer){
+            answer3.backgroundColor = UIColor(red: 75/255, green: 135/255, blue: 35/255, alpha: 1.0)
             correctResponse()
         }
         else {incorrectResponse()}
     }
     @IBAction func checkAnswer4(sender: UIButton) {
         if (answer4.currentTitle == answer){
+            answer4.backgroundColor = UIColor(red: 75/255, green: 135/255, blue: 35/255, alpha: 1.0)
             correctResponse()
         }
         else {incorrectResponse()}
@@ -51,7 +55,17 @@ class QuizViewController: UIViewController {
         response.text = "Oops, try again!"
     }
     func correctResponse() {
+        response.font = UIFont.boldSystemFont(ofSize: 17)
+        response.textColor = UIColor(red: 75/255, green: 135/255, blue: 35/255, alpha: 1.0)
         response.text = "Correct!"
+        
+        disableButtons()
+    }
+    func disableButtons(){
+        answer1.isUserInteractionEnabled = false
+        answer2.isUserInteractionEnabled = false
+        answer3.isUserInteractionEnabled = false
+        answer4.isUserInteractionEnabled = false
     }
     
     
