@@ -39,12 +39,16 @@ class SlideshowStackViewController: UIViewController {
        // Do any additional setup after loading the view.
 
        //stackView.heightAnchor.constraint(equalToConstant: view.frame.height - 700).isActive = true;
-       stackView.frame = CGRect(x: 0, y: 0, width: 1300, height: 200)
+       stackView.frame = CGRect(x: 0, y: 0, width: 1300, height: 100)
+    stackView.axis = .horizontal
+    stackView.alignment = .fill // .Leading .FirstBaseline .Center .Trailing .LastBaseline
+    stackView.distribution = .fill // .FillEqually .FillProportionally .EqualSpacing .EqualCentering
+    stackView.spacing = 10.0
 
        scroller.addSubview(stackView)
               scroller.contentSize = CGSize(width: stackView.frame.width, height: stackView.frame.height)
-              print(stackView.frame.width)
-              print(view.frame.width)
+              //print(stackView.frame.width)
+              //print(view.frame.width)
 
        //stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true;
 
