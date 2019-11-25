@@ -5,6 +5,8 @@
 	<dict>
 		<key>ModuleName</key>
 		<string>Sexual Health &amp; Reproduction</string>
+		<key>ModuleDesc</key>
+		<string>The components of our bodies and how they function.</string>
 		<key>VideoURL</key>
 		<string>https://youtube.com/embed/wZ6T8wrqjAE?playsinline=1?autoplay=1</string>
 		<key>AvatarPose</key>
@@ -767,6 +769,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>ModuleDesc</key>
+		<string>The role of power in sexuality, including how we learn about sexuality.</string>
 		<key>ModuleName</key>
 		<string>Power &amp; Sexualization</string>
 		<key>VideoURL</key>
@@ -1695,6 +1699,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>ModuleDesc</key>
+		<string>Who we are and how we label ourselves &amp; our desires.</string>
 		<key>ModuleName</key>
 		<string>Sexual Identity</string>
 		<key>VideoURL</key>
@@ -2619,6 +2625,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>ModuleDesc</key>
+		<string>Using our senses to experience pleasure physically &amp; psychologically.</string>
 		<key>ModuleName</key>
 		<string>Sensuality</string>
 		<key>VideoURL</key>
@@ -3533,6 +3541,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>ModuleDesc</key>
+		<string>The exchange of emotional closeness between people.</string>
 		<key>ModuleName</key>
 		<string>Intimacy</string>
 		<key>VideoURL</key>

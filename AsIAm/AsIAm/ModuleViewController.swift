@@ -38,7 +38,7 @@ class ModuleViewController: UIViewController {
             button.setTitle(dict[index]["SubtopicName"] as? String, for: .normal)
         }
         moduleNameLabel.text = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["ModuleName"] as? String
-        moduleDescLabel.text = "The exchange of emotional closeness between people"
+        moduleDescLabel.text = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["ModuleDesc"] as? String
         
         let moduleNum = ModuleNavModel.shared.selectedModule
         switch moduleNum{
