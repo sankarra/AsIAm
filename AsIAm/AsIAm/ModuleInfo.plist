@@ -353,39 +353,15 @@
 				<array>
 					<dict>
 						<key>question</key>
-						<string>What is the most effective form of birth control?</string>
+						<string>If you and your parnter are planning on having sex, what is the most effective form of birth control?</string>
 						<key>correctAnswer</key>
-						<string>abstinence</string>
+						<string>contraceptive pill</string>
 						<key>wrongAnswer1</key>
-						<string>condoms</string>
+						<string>male condom</string>
 						<key>wrongAnswer2</key>
-						<string>IUDs</string>
+						<string>IUD</string>
 						<key>wrongAnswer3</key>
-						<string>coitus interruptus</string>
-					</dict>
-					<dict>
-						<key>question</key>
-						<string>What is the most effective form of birth control?</string>
-						<key>correctAnswer</key>
-						<string>abstinence</string>
-						<key>wrongAnswer1</key>
-						<string>condoms</string>
-						<key>wrongAnswer2</key>
-						<string>IUDs</string>
-						<key>wrongAnswer3</key>
-						<string>coitus interruptus</string>
-					</dict>
-					<dict>
-						<key>question</key>
-						<string>What is the most effective form of birth control?</string>
-						<key>correctAnswer</key>
-						<string>abstinence</string>
-						<key>wrongAnswer1</key>
-						<string>condoms</string>
-						<key>wrongAnswer2</key>
-						<string>IUDs</string>
-						<key>wrongAnswer3</key>
-						<string>coitus interruptus</string>
+						<string>contraceptive patch</string>
 					</dict>
 				</array>
 			</dict>
