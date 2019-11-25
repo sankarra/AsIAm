@@ -77,8 +77,8 @@ class QuizViewController: UIViewController {
             answer3.setTitle(wrongAnswer3, for: .normal)
             answer4.setTitle(correctAnswer, for: .normal)
             
-            print(question)
-            print(correctAnswer)
+            //print(question)
+            //print(correctAnswer)
 
         }
         
