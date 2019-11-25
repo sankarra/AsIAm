@@ -410,7 +410,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cI0-9g-QLR">
-                                                <rect key="frame" x="0.0" y="0.0" width="150.00000000000023" height="150"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="98T-UP-tR9"/>
                                                     <constraint firstAttribute="width" constant="150" id="U7u-wj-Gq9"/>
@@ -1530,78 +1530,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8fK-NI-jNa">
-                                <rect key="frame" x="57" y="109" width="300" height="234"/>
+                                <rect key="frame" x="57" y="109" width="300" height="161"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the correct answer" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAt-xj-i8M" userLabel="Question">
-                                <rect key="frame" x="57" y="361" width="300" height="75"/>
+                                <rect key="frame" x="20" y="278" width="374" height="154"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="Hmm-fj-yS4"/>
+                                    <constraint firstAttribute="height" constant="154" id="Hmm-fj-yS4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Q3-j78">
-                                <rect key="frame" x="107" y="444" width="200" height="230"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-jJ-wMX" userLabel="Answer1">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="6av-es-zpq"/>
-                                            <constraint firstAttribute="height" constant="50" id="yvU-s5-12w"/>
-                                        </constraints>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="checkAnswer1WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="I5R-3l-1fT"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvG-iF-jJr" userLabel="Answer2">
-                                        <rect key="frame" x="0.0" y="60" width="200" height="50"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="J8K-6h-vlt"/>
-                                            <constraint firstAttribute="width" constant="200" id="crq-8D-Fa9"/>
-                                        </constraints>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="checkAnswer2WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="3bO-e8-Tz3"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5o-F4-0Xw" userLabel="Answer3">
-                                        <rect key="frame" x="0.0" y="120" width="200" height="50"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="SoE-q5-TRP"/>
-                                            <constraint firstAttribute="height" constant="50" id="ZtN-hE-9aW"/>
-                                        </constraints>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="checkAnswer3WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="T7r-oG-3nn"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQI-yO-trc" userLabel="Answer4">
-                                        <rect key="frame" x="0.0" y="180" width="200" height="50"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="Dcb-y2-Krz"/>
-                                            <constraint firstAttribute="height" constant="50" id="Ftd-Bt-JEW"/>
-                                        </constraints>
-                                        <state key="normal" title="Button">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="checkAnswer4WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="qV2-JR-Sy2"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xra-eJ-Fz3">
                                 <rect key="frame" x="57" y="710" width="300" height="75"/>
                                 <constraints>
@@ -1611,19 +1550,84 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="id4-Q3-j78">
+                                <rect key="frame" x="107" y="452" width="200" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-jJ-wMX" userLabel="Answer1">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="55"/>
+                                        <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="DwV-In-5w7"/>
+                                            <constraint firstAttribute="width" constant="200" id="dzf-mW-rWW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="checkAnswer1WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="I5R-3l-1fT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvG-iF-jJr" userLabel="Answer2">
+                                        <rect key="frame" x="0.0" y="65" width="200" height="55"/>
+                                        <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="LO1-c3-GUa"/>
+                                            <constraint firstAttribute="width" constant="200" id="TiK-b0-V7j"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="checkAnswer2WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="3bO-e8-Tz3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5o-F4-0Xw" userLabel="Answer3">
+                                        <rect key="frame" x="0.0" y="130" width="200" height="55"/>
+                                        <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="eSU-WM-OHT"/>
+                                            <constraint firstAttribute="height" constant="55" id="frL-Wg-Vs7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="checkAnswer3WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="T7r-oG-3nn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQI-yO-trc" userLabel="Answer4">
+                                        <rect key="frame" x="0.0" y="195" width="200" height="55"/>
+                                        <color key="backgroundColor" red="0.99996966119999997" green="0.73873537779999998" blue="0.60259097809999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="X0l-mo-GeQ"/>
+                                            <constraint firstAttribute="width" constant="200" id="pkN-td-K3n"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="checkAnswer4WithSender:" destination="cAf-0x-FLR" eventType="touchUpInside" id="qV2-JR-Sy2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.96470588239999999" green="0.86274509799999999" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="id4-Q3-j78" firstAttribute="top" secondItem="uAt-xj-i8M" secondAttribute="bottom" constant="8" id="2ke-OL-xzR"/>
-                            <constraint firstItem="uAt-xj-i8M" firstAttribute="leading" secondItem="Xra-eJ-Fz3" secondAttribute="leading" id="7wj-i2-or4"/>
+                            <constraint firstItem="id4-Q3-j78" firstAttribute="top" secondItem="uAt-xj-i8M" secondAttribute="bottom" constant="20" id="2ke-OL-xzR"/>
+                            <constraint firstItem="uAt-xj-i8M" firstAttribute="leading" secondItem="Xra-eJ-Fz3" secondAttribute="leading" constant="-37" id="7wj-i2-or4"/>
                             <constraint firstItem="uAt-xj-i8M" firstAttribute="centerX" secondItem="id4-Q3-j78" secondAttribute="centerX" id="HjN-Jn-uru"/>
-                            <constraint firstItem="8fK-NI-jNa" firstAttribute="leading" secondItem="uAt-xj-i8M" secondAttribute="leading" id="JyZ-eS-9fw"/>
-                            <constraint firstItem="8fK-NI-jNa" firstAttribute="trailing" secondItem="uAt-xj-i8M" secondAttribute="trailing" id="QNG-xl-SfH"/>
-                            <constraint firstItem="uAt-xj-i8M" firstAttribute="trailing" secondItem="Xra-eJ-Fz3" secondAttribute="trailing" id="bw1-lh-hgk"/>
-                            <constraint firstItem="uAt-xj-i8M" firstAttribute="top" secondItem="8fK-NI-jNa" secondAttribute="bottom" constant="18" id="d62-yM-FYL"/>
+                            <constraint firstItem="8fK-NI-jNa" firstAttribute="leading" secondItem="uAt-xj-i8M" secondAttribute="leading" constant="37" id="JyZ-eS-9fw"/>
+                            <constraint firstItem="8fK-NI-jNa" firstAttribute="trailing" secondItem="uAt-xj-i8M" secondAttribute="trailing" constant="-37" id="QNG-xl-SfH"/>
+                            <constraint firstItem="uAt-xj-i8M" firstAttribute="trailing" secondItem="Xra-eJ-Fz3" secondAttribute="trailing" constant="37" id="bw1-lh-hgk"/>
+                            <constraint firstItem="uAt-xj-i8M" firstAttribute="top" secondItem="8fK-NI-jNa" secondAttribute="bottom" constant="8" id="d62-yM-FYL"/>
                             <constraint firstItem="8fK-NI-jNa" firstAttribute="leading" secondItem="Fe7-RH-Krw" secondAttribute="leading" constant="57" id="hro-Ix-5VZ"/>
-                            <constraint firstItem="Xra-eJ-Fz3" firstAttribute="top" secondItem="id4-Q3-j78" secondAttribute="bottom" constant="36" id="vSv-VB-rbb"/>
+                            <constraint firstItem="Xra-eJ-Fz3" firstAttribute="top" secondItem="id4-Q3-j78" secondAttribute="bottom" constant="8" id="vSv-VB-rbb"/>
                             <constraint firstItem="8fK-NI-jNa" firstAttribute="centerX" secondItem="Fx3-dW-B7r" secondAttribute="centerX" id="wdU-7c-cer"/>
                             <constraint firstItem="Fe7-RH-Krw" firstAttribute="bottom" secondItem="Xra-eJ-Fz3" secondAttribute="bottom" constant="23" id="yPq-RY-CUy"/>
                             <constraint firstItem="8fK-NI-jNa" firstAttribute="top" secondItem="Fe7-RH-Krw" secondAttribute="top" constant="53" id="z9q-pz-WQH"/>
@@ -1659,21 +1663,21 @@
                                 <rect key="frame" x="47" y="714" width="320" height="100"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Asset 1" translatesAutoresizingMaskIntoConstraints="NO" id="Erh-lh-qg0" userLabel="SubImage1">
-                                        <rect key="frame" x="0.0" y="0.0" width="100.00000000000006" height="100.00000000000006"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="brd-Qt-3wp"/>
                                             <constraint firstAttribute="width" constant="100" id="cbd-gG-YAf"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Asset 2" translatesAutoresizingMaskIntoConstraints="NO" id="MCy-lD-A1z" userLabel="SubImage2">
-                                        <rect key="frame" x="110" y="0.0" width="100.00000000000006" height="100.00000000000006"/>
+                                        <rect key="frame" x="110" y="0.0" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="H2V-uA-Njp"/>
                                             <constraint firstAttribute="height" constant="100" id="WvR-xN-VYy"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Asset 3" translatesAutoresizingMaskIntoConstraints="NO" id="RLb-DM-Da7" userLabel="SubImage3">
-                                        <rect key="frame" x="219.99999999999997" y="0.0" width="100.00000000000009" height="100"/>
+                                        <rect key="frame" x="220" y="0.0" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="BjM-Ej-GLU"/>
                                             <constraint firstAttribute="height" constant="100" id="DbG-Eh-Nvg"/>
