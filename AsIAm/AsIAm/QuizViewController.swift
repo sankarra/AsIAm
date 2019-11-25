@@ -16,7 +16,11 @@ class QuizViewController: UIViewController {
     @IBOutlet var answer3: UIButton!
     @IBOutlet var answer4: UIButton!
     @IBOutlet var response: UILabel!
-    let answer = "C"
+    var answer = ""
+    
+    var words: [[Any]] = [];
+
+    var dict: [[String: Any]] = []
     
     @IBAction func checkAnswer1(sender: UIButton) {
         if (answer1.currentTitle == answer){
@@ -53,15 +57,36 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dict = ModuleNavModel.shared.module(at: ModuleNavModel.shared.selectedModule)?["Subtopics"] as! [[String: Any]]
+        let subtopic = dict[ModuleNavModel.shared.selectedSubtopic]["SubtopicName"] as? String
+        let words = dict[ModuleNavModel.shared.selectedSubtopic]["QuizItems"] as! [[String: String]]
+        
+        for word in words{
+            //code to procedurally generate imageviews
+            let question = word["question"]
+            let correctAnswer = word["correctAnswer"]
+            let wrongAnswer1 = word["wrongAnswer1"]
+            let wrongAnswer2 = word["wrongAnswer2"]
+            let wrongAnswer3 = word["wrongAnswer3"]
+            
+            questionLabel.text = question
+            answer = correctAnswer!
+            answer1.setTitle(wrongAnswer1, for: .normal)
+            answer2.setTitle(wrongAnswer2, for: .normal)
+            answer3.setTitle(wrongAnswer3, for: .normal)
+            answer4.setTitle(correctAnswer, for: .normal)
+            
+            print(question)
+            print(correctAnswer)
+
+        }
+        
         answer1.layer.cornerRadius = 15
         answer2.layer.cornerRadius = 15
         answer3.layer.cornerRadius = 15
         answer4.layer.cornerRadius = 15
         
-        answer1.setTitle("A", for: .normal)
-        answer2.setTitle("B", for: .normal)
-        answer3.setTitle("C", for: .normal)
-        answer4.setTitle("D", for: .normal)
 
         // Do any additional setup after loading the view.
     }
