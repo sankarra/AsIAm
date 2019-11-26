@@ -2,7 +2,7 @@
 //  UsersModel.swift
 //  AsIAm
 //
-//  Created by Student on 10/3/19.
+//  Created by Kevin Calaway on 10/3/19.
 //  Copyright © 2019 Anup Sankarraman. All rights reserved.
 //
 
@@ -22,6 +22,8 @@ class UsersModel: NSObject {
         manager = FileManager.default
         let url = manager.urls(for: .documentDirectory, in: .userDomainMask).first
         documents = url!.appendingPathComponent("Users.plist").path
+        
+        //this print statement will help you find Users.plist, which is located deep within a hidden folder on your computer. This simulates files being stored to the documents folder on your iPhone or iPad, so do not attempt to move it.
         print("plist location: ", documents)
         self.model = []
         selectedIndex = -1
@@ -29,7 +31,7 @@ class UsersModel: NSObject {
         populateModel()
     }
     
-    //Gets data from FireStore and internal storage, if any
+    //Gets data from internal storage
     func populateModel(){
         if manager.fileExists(atPath: documents!){
             let usersArray = NSArray(contentsOfFile: documents!)
@@ -51,7 +53,7 @@ class UsersModel: NSObject {
         return model.count
     }
     
-    //Writes a song to FireStore or, if that fails, to internal storage
+    //Writes a user to internal storage
     func insert(user: UserProfile){
         model.append(user);
         var usersArray = [[String:Any]]()
@@ -66,6 +68,7 @@ class UsersModel: NSObject {
         
     }
     
+    //Saves the current state of the user model. This is called primarily by UnicornViewController.swift for now, but will be called more often as user progress is implemented.
     func save(){
         var usersArray = [[String:Any]]()
         for user in model{
@@ -78,12 +81,12 @@ class UsersModel: NSObject {
         (usersArray as NSArray).write(toFile: documents!, atomically: true)
     }
     
-    //removes a song
+    //removes a user
     func remove(at index: Int){
         model.remove(at: index)
     }
     
-    //Returns the song at a given index
+    //Returns the user at a given index
     func user(at index: Int) -> UserProfile{
         if (index >= model.count){
             return UserProfile(name: "Guest", avatar: "")

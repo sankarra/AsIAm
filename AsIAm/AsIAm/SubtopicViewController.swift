@@ -2,18 +2,23 @@
 //  SubtopicViewController.swift
 //  AsIAm
 //
-//  Created by Student on 10/18/19.
+//  Created by Kevin Calaway on 10/18/19.
 //  Copyright © 2019 Anup Sankarraman. All rights reserved.
 //
 
 import UIKit
 
+/*
+ Author's note: This class was deprecated by a features request change where "Learn" became a module-level action and each topic's "Play" became a single activity. However, at the last minute the stakeholder began to ask for two or three activities for certain subtopics, and so I leave this class here to be adapted to the new features.
+ */
 class SubtopicViewController: UIViewController {
     
     var dict: [[String: Any]] = []
 
     @IBOutlet weak var subtopicLabel: UILabel!
     
+    /* Sends users to the correct activity respect to the information gleaned from ModuleInfo.plist
+    */
     @IBAction func playButton(_ sender: Any) {
         let gameType = dict[ModuleNavModel.shared.selectedSubtopic]["GameType"] as? String
         switch gameType{

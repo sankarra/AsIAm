@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4CDE3D238D9E640095C5DC /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CDE3C238D9E640095C5DC /* PlayfairDisplay-Regular.otf */; };
 		3F917D15235A7D9F00A77203 /* ModuleInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F917D14235A7D9F00A77203 /* ModuleInfo.plist */; };
 		3F917D17235A83F700A77203 /* SubtopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F917D16235A83F700A77203 /* SubtopicViewController.swift */; };
 		3F917D19235A863C00A77203 /* ModuleNavModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F917D18235A863C00A77203 /* ModuleNavModel.swift */; };
@@ -17,7 +18,6 @@
 		5BABA40B233D91500043DF7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA40A233D91500043DF7B /* HomeViewController.swift */; };
 		684FD0ED237E08E20000142E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EC237E08E20000142E /* QuizViewController.swift */; };
 		684FD0EF237E0FD80000142E /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FD0EE237E0FD80000142E /* SlideShowViewController.swift */; };
-		685CBDFA235D202100BD973F /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */; };
 		68AF8E01237F2EB70093B653 /* SlideshowStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF8E00237F2EB70093B653 /* SlideshowStackViewController.swift */; };
 		A131CB38236394CA00C1CC1B /* MemoryMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */; };
 		A134081E2334433A00FDD480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134081D2334433A00FDD480 /* AppDelegate.swift */; };
@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F4CDE3C238D9E640095C5DC /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.otf"; path = "../../../../../Downloads/playfair-display/PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
 		3F917D14235A7D9F00A77203 /* ModuleInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModuleInfo.plist; sourceTree = "<group>"; };
 		3F917D16235A83F700A77203 /* SubtopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtopicViewController.swift; sourceTree = "<group>"; };
 		3F917D18235A863C00A77203 /* ModuleNavModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleNavModel.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		5BABA40A233D91500043DF7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		684FD0EC237E08E20000142E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		684FD0EE237E0FD80000142E /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
-		685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.otf"; path = "../../../../../../Downloads/playfair-display/PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
 		68AF8E00237F2EB70093B653 /* SlideshowStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowStackViewController.swift; sourceTree = "<group>"; };
 		A131CB37236394CA00C1CC1B /* MemoryMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMatchViewController.swift; sourceTree = "<group>"; };
 		A134081A2334433A00FDD480 /* AsIAm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsIAm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +115,7 @@
 		685CBDF8235D1FDB00BD973F /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				685CBDF9235D202100BD973F /* PlayfairDisplay-Regular.otf */,
+				3F4CDE3C238D9E640095C5DC /* PlayfairDisplay-Regular.otf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -294,11 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4CDE3D238D9E640095C5DC /* PlayfairDisplay-Regular.otf in Resources */,
 				3F917D15235A7D9F00A77203 /* ModuleInfo.plist in Resources */,
 				A13408282334433C00FDD480 /* LaunchScreen.storyboard in Resources */,
 				A13408252334433C00FDD480 /* Assets.xcassets in Resources */,
 				A13408232334433A00FDD480 /* Main.storyboard in Resources */,
-				685CBDFA235D202100BD973F /* PlayfairDisplay-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  UnicornViewController.swift
 //  AsIAm
 //
-//  Created by Student on 11/7/19.
+//  Created by Kevin Calaway on 11/7/19.
 //  Copyright © 2019 Anup Sankarraman. All rights reserved.
 //
 
@@ -10,6 +10,7 @@ import UIKit
 
 class UnicornViewController: ViewController {
 
+    //These are the views themselves that contain the sliders. Use them however you wish.
     @IBOutlet weak var emotionallyAttractView: UIView!
     @IBOutlet weak var physicalAttractView: UIView!
     @IBOutlet weak var sexAssignedView: UIView!
@@ -17,6 +18,14 @@ class UnicornViewController: ViewController {
     @IBOutlet weak var genderExpressView: UIView!
     @IBOutlet weak var scrollPaneOutlet: UIScrollView!
     
+    //Rudimentary autosave features. This could probably be implemented better by having an IBAction on every control, but this works for now.
+    @IBAction func screenDidTouch(_ sender: Any) {saveButtonDidPress(self)
+    }
+    @IBAction func screenDidScroll(_ sender: Any) {
+        saveButtonDidPress(self)
+    }
+    
+    //Each of these are the controls that are provided to the user.
     @IBOutlet weak var mascIdentSlider: UISlider!
     @IBOutlet weak var femIdentSlider: UISlider!
     @IBOutlet weak var otherIdentSlider: UISlider!
@@ -31,6 +40,7 @@ class UnicornViewController: ViewController {
     @IBOutlet weak var femEmoSlider: UISlider!
     @IBOutlet weak var otherEmoSlider: UISlider!
     
+    //Reads in the values of all controls and writes them to the current user's gender in the user model. Then saves the user model to the P-List.
     @IBAction func saveButtonDidPress(_ sender: Any) {
         let currUser = UsersModel.shared.user(at: UsersModel.shared.selectedIndex)
         currUser.gender = ["mascIdent":Double(mascIdentSlider!.value),
@@ -51,6 +61,7 @@ class UnicornViewController: ViewController {
     }
     
     
+    //Loads in the user's current gender according to their user profile, and sets up the scrollpane to scroll through all elements correctly.
     override func viewDidLoad() {
         super.viewDidLoad()
         let contentWidth = scrollPaneOutlet.bounds.width

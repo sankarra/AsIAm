@@ -2,7 +2,7 @@
 //  UserProfile.swift
 //  AsIAm
 //
-//  Created by Student on 10/3/19.
+//  Created by Kevin Calaway on 10/3/19.
 //  Copyright © 2019 Kevin Calaway. All rights reserved.
 //
 
@@ -10,6 +10,8 @@ import Foundation
 
 class UserProfile{
     
+    //Keeps track of user's name, avatar, and gender, and contains a basic outline for keeping track of a user's progress, though no functionality for this has been implemented.
+    //TODO: Implement user progress.
     var name: String
     var progress: Dictionary<String,Dictionary<String,Dictionary<String,Bool>>>
     var avatar: String
@@ -17,6 +19,7 @@ class UserProfile{
     
     init(name: String, avatar: String){
         self.name = name
+        //The default progress where no user has completed anything.
         progress = ["mod1":
                     ["topic1":
                         ["learn1":false,
@@ -174,6 +177,7 @@ class UserProfile{
                     ]
                 ]
         self.avatar = avatar
+        //The default gender before they've started anything.
         self.gender = ["mascIdent":0.5,
                        "femIdent":0.5,
                        "otherIdent":0.5,
@@ -189,6 +193,7 @@ class UserProfile{
                        "otherEmo":0.5]
     }
     
+    //this is used to fetch user profiles from Users.plist, i.e. existing users, and interact with them.
     init (name:String, progress:[String : [String : [String : Bool]]], avatar:String, gender: [String: Double]){
         self.name = name;
         self.progress = progress;

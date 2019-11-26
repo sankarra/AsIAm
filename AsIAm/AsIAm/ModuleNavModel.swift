@@ -1,8 +1,8 @@
 //
-//  UsersModel.swift
+//  ModuleNavModel.swift
 //  AsIAm
 //
-//  Created by Student on 10/3/19.
+//  Created by Kevin Calaway on 10/3/19.
 //  Copyright © 2019 Anup Sankarraman. All rights reserved.
 //
 
@@ -29,7 +29,7 @@ class ModuleNavModel: NSObject {
         populateModel()
     }
     
-    //Gets data from FireStore and internal storage, if any
+    //Gets data from ModuleInfo.plist and reads it into the singleton.
     func populateModel(){
         if manager.fileExists(atPath: documents!){
             let modulesArray = NSArray(contentsOfFile: documents!)
