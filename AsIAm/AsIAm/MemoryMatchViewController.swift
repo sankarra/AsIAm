@@ -10,6 +10,7 @@ import UIKit
 
 class MemoryMatchViewController: UIViewController {
 
+    //All outlets connected to UI of Memorymatch controller
     @IBOutlet weak var successLabel: UILabel!
     @IBOutlet weak var image1Outlet: UIButton!
     @IBOutlet weak var image2Outlet: UIButton!
@@ -28,6 +29,8 @@ class MemoryMatchViewController: UIViewController {
     var cardsOpen = 0
     var arrayOfOpenCards: [Int] = []
     var totalSuccessfulCards = 0
+    
+    //Use different Timer classes to start/stop timers
     var timer = Timer()
     var timer2 = Timer()
     var timer3 = Timer()
@@ -41,9 +44,13 @@ class MemoryMatchViewController: UIViewController {
         super.viewDidLoad()
         successLabel.isHidden = true
         
+        //Storing all of the outlets in an array
         arrayOfOutlets = [image1Outlet, image2Outlet, image3Outlet, image4Outlet, image5Outlet, image6Outlet, image7Outlet, image8Outlet, image9Outlet, image10Outlet]
+        
+        //Store all of the image names so that they can be changed later in an array
         arrayOfPictureNames = ["Asset 1", "Asset 1", "Asset 2", "Asset 2", "Asset 3", "Asset 3", "Asset 4", "Asset 4", "temp_av1", "temp_av1"]
-                
+            
+        //start 3 second timer so that we can display cards for 3 seconds before flipping them all back
         timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: false)
 
         
@@ -78,6 +85,8 @@ class MemoryMatchViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    
+    //Function is called once first timer is initialized
     @objc func flipTimer() {
         print("Array of open cards count: ", arrayOfOpenCards.count)
         arrayOfOutlets[arrayOfOpenCards[0]-1].setImage(UIImage(named: "blackCircle"), for: UIControl.State.normal)
@@ -97,6 +106,7 @@ class MemoryMatchViewController: UIViewController {
             a += 1
         }
     }
+    //if two cards have the same image, this funciton is called to flip cards back over to normal
     @objc func correctFlipTimer() {
         arrayOfOutlets[arrayOfOpenCards[0]-1].isHidden = true
                         arrayOfOutlets[arrayOfOpenCards[1]-1].isHidden = true
@@ -113,6 +123,7 @@ class MemoryMatchViewController: UIViewController {
                          cardsOpen = 0
     }
     
+    //this function checks to see if two open cards have the same image, if so it removes them
     func checkCards(i: Int)
     {
         arrayOfOpenCards.append(i)
@@ -140,6 +151,8 @@ class MemoryMatchViewController: UIViewController {
             //2 cards arent flipped over
         }
     }
+    
+    //All of these functions are called when a card is clicked
     @IBAction func image1Action(_ sender: Any) {
         if (cardsOpen > 1)
         {

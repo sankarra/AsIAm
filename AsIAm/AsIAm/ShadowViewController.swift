@@ -174,6 +174,10 @@ class ShadowViewController: UIViewController {
     func match(left: Int, right: Int) -> Bool
     {
         //match based on array
+        print("left: ")
+        print(left)
+        print("right: ")
+        print(right)
         return (matchArray[left] == right)
     }
 
